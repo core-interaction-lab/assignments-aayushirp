@@ -14,8 +14,11 @@
 
 body{
     margin: 0;
-    background-color: black;
-    background-image: url(https://tenor.com/view/box-squares-patterns-sprites-gif-11205351);
+    background-color: rgba(0,0,0,0.01);
+    background-image: url(box-bg.gif);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .main-text{
