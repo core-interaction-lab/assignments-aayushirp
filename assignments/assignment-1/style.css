@@ -21,7 +21,7 @@ body{
     color: white;
     font-family: 'ChakraPetch-SemiBold';
     font-size: 40px;
-    margin-top: 5%;
+    margin-top: 200px;
     margin-left: 9%;
     margin-right: 9%;
     text-align: center;
@@ -29,8 +29,8 @@ body{
 
 .main-title {
     color:white;
-    font-size: 200px;
+    font-size: 90px;
     font-family: 'ChakraPetch-SemiBold';
     margin-left: 2%;
-    margin-top: 5%;
+    margin-top: 500px;
 }
