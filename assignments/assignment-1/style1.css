@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'ChakraPetch-SemiBold';
+    src: url(ChakraPetch-SemiBold.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChakraPetch-Light';
+    src: url(ChakraPetch-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.zoomgif{
+    display: flex;
+    justify-content: right;
+}
+
+
