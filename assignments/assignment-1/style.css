@@ -1,9 +1,6 @@
 @font-face {
-    font-family:'begum';
-            src: url('begum.woff2') format('woff2'), 
-            url('begum.woff') format('woff');
-                font-weight: 600;
-                font-style: normal;
-                font-display: swap;;
-                src: url();
+    font-family: 'ChakraPetch';
+    src: url(ChakraPetch-SemiBold.ttf);
+    font-weight: 500;
+    font-style: normal;
 }
