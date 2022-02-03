@@ -1,6 +1,36 @@
 @font-face {
-    font-family: 'ChakraPetch';
+    font-family: 'ChakraPetch-SemiBold';
     src: url(ChakraPetch-SemiBold.ttf);
     font-weight: 500;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChakraPetch-Light';
+    src: url(ChakraPetch-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.main-text{
+    color: white;
+    font-family: 'ChakraPetch-SemiBold';
+    font-size: 40px;
+    margin-top: 5%;
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: center;
+}
+
+.main-title {
+    color:white;
+    font-size: 200px;
+    font-family: 'ChakraPetch-SemiBold';
+    margin-left: 2%;
+    margin-top: 5%;
 }
