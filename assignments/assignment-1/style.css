@@ -28,7 +28,7 @@ body{
 
 .main-title {
     color:white;
-    font-size: 50px;
+    font-size: 90px;
     font-family: 'ChakraPetch-SemiBold';
     margin-left: 2%;
     margin-top: 100px;
@@ -36,8 +36,8 @@ body{
 
 .sub-text{
     color: white;
-    font-size: 20px;
+    font-size: 50px;
     font-family: 'ChakraPetch-Light';
     margin-left: 2%;
-    margin-top: 300px;
+    margin-top: 200px;
 }
