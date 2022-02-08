@@ -15,6 +15,49 @@
 .zoomgif{
     display: flex;
     justify-content: right;
+    position: relative;
 }
 
+h1{
+    color: #016db4;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    width: 50px;
+    height: 100px;
+    margin: 30px;
+    text-align: left;
+    line-height: 110px;
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+h2{
+    color: #56abfa;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 500px;
+height: 20px;
+margin: 30px;
+line-height: 30px;
+font-size: 20px;
+}
+
+h3{
+    color: #2595fd;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width:500px;
+height: 20px;
+margin: 30px;
+line-height: 20px;
+font-size: 12px;
+} 
+
+h4{
+
+    color: #227dd1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:500px;
+    height: 20px;
+    margin: 30px;
+    line-height: 20px;
+    font-size: 15px;
+}
 
