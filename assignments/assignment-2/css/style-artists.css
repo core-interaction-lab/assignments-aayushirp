@@ -58,13 +58,15 @@ h1 {
     vertical-align: bottom;
 }
 
-.h3 {
+.artists-post__header {
     display: block;
+    text-align: center;
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    color: #B38728;
 }
 
 p {
@@ -85,10 +87,18 @@ img {
         flex-wrap: wrap;
         padding: 20px;
     }
-}
 
 .artists-post {
     overflow: auto;
+    width: 100vw;
+    padding: 0 1rem;
     box-sizing: border-box;
     padding: 30px;
+}
+
+.artists-post__body {
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
 }
