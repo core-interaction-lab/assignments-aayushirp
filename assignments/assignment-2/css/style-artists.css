@@ -41,16 +41,21 @@ h1 {
     padding-inline-start: 50px;
 }
 
-.posts {
+.post {
     display: flex;
     flex-wrap: wrap;
 }
 
 .artists-post {
     overflow: auto;
-    width: 50%;
+    width: 25%;
     box-sizing: border-box;
     padding: 0 1rem;
+}
+
+.artists-post__body {
+    object-fit: cover;
+    vertical-align: bottom;
 }
 
 .h3 {
@@ -63,13 +68,27 @@ h1 {
 }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
+    /* display: block; */
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 2px;
     margin-inline-end: 0px;
 }
 
 img {
     max-width: 100%;
+}
+
+@media (max-width: 750px) {
+    .post {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+}
+
+.artists-post {
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 30px;
 }
