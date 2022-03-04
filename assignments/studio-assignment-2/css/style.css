@@ -1,3 +1,7 @@
+@font-face{
+    font-family: ra-med;
+    src: url(ra-med.ttf);
+}
 
 body {
     display: block;
@@ -12,12 +16,12 @@ body {
 
 #radial {
     position: relative;
-    width: 980px;
+    width: 800px;
     height: 931px;
-    left: 571px;
+    left: 670px;
     top: 23px;
     margin-top: -915px;
-    background: radial-gradient(43.66% 43.66% at 50% 50%, rgba(185, 138, 66, 1) 0%, rgba(217, 171, 89, 0.706386) 55.96%, rgba(252, 218, 151, 0) 91.67%);
+    background: radial-gradient(54.66% 50.66% at 50% 50%, rgba(185, 138, 66, 1) 0%, rgba(217, 171, 89, 0.706386) 55.96%, rgba(252, 218, 151, 0) 91.67%);
     z-index: 0;
 }
 
@@ -46,17 +50,18 @@ h2 {
 }
 
 h1 {
-    font-family: Helvetica; 
-    font-size: 20px;
+    font-family: ra-med; 
+    font-size: 18px;
     color: #e0c28a79;
     width: 500px;
     height: 0px;
     text-align: left;
-    line-height: 35px;
-    margin-top: 150px;
+    line-height: 33px;
+    margin-top: 140px;
     margin-left: 810px;
     z-index: 1;
 }
+
 
 h1:hover {
     color: rgb(128, 77, 0);
@@ -69,13 +74,37 @@ h1:hover {
     z-index: 1;
 }
 
+a {
+    color: #B38728;
+    background-color: transparent;
+    height: 10px;
+    width: 90px;
+    border: 2px solid #B38728;
+    padding: 25px 30px;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 38px;
+    margin-left: 975px;
+    margin-top: 150px;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 2;
+}
+
+a:hover, a:active {
+    background-color: #B38728;
+    color: white;
+    border-radius: 38px;
+  }
+
 footer {
     color: #815c16;
     font-family: 'Smooch Sans', sans-serif;
     width: 250px;
     height: 10px;
     margin: 0;
-    margin-top: 250px;
+    margin-top: 60px;
     text-align: right;
     margin-left: 1090px;
     font-size: 23px;
