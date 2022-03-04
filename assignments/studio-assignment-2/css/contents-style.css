@@ -1,3 +1,9 @@
+#table-of-contents{
+    padding-right: -100px;
+    padding-bottom: -1000px;
+}
+
+
 #radial1 {
 position: relative;
 width: 635px;
@@ -17,14 +23,14 @@ background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568)
     filter: contrast();
 }
 
-@keyframes mask1 {
+ @keyframes radial1 {
     0%   {left:700px; top:200px;}
     15%  {left:750px; top:100px;}
     25%  {left:900px; top:100px;}
     50%  {left:800px; top:300px;}
     75%  {left:650px; top:250px;}
     100% {left:500px; top:200px;}
-}
+} 
 
 #radial2 {
 position: relative;
@@ -45,6 +51,15 @@ background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568)
     filter: contrast();
 }
 
+ @keyframes radial2 {
+    0%   {left:100px; top:300px;}
+    15%  {left:250px; top:100px;}
+    25%  {left:400px; top:100px;}
+    50%  {left:500px; top:300px;}
+    75%  {left:250px; top:250px;}
+    100% {left:500px; top:200px;}
+  }   
+
 #radial3 {
     position: relative;
     width: 526px;
@@ -63,6 +78,17 @@ background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568)
 #radial3:hover {
     filter: contrast();
 }
+
+
+ @keyframes radial3 {
+    0%   {left:300px; top:500px;}
+    15%  {left:150px; top:200px;}
+    25%  {left:500px; top:150px;}
+    50%  {left:100px; top:600px;}
+    75%  {left:450px; top:250px;}
+    100% {left:500px; top:200px;}
+  } 
+
 
 #radial4 {
     position: relative;
@@ -83,6 +109,15 @@ background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568)
     filter: contrast();
 }
 
+@keyframes radial4 {
+    0%   {left:500px; top:100px;}
+    15%  {left:250px; top:700px;}
+    25%  {left:100px; top:350px;}
+    50%  {left:600px; top:500px;}
+    75%  {left:400px; top:150px;}
+    100% {left:500px; top:200px;}
+  } 
+
 #radial5 {
     position: relative;
     width: 526px;
@@ -101,3 +136,12 @@ background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568)
 #radial5:hover {
     filter: contrast();
 }
+
+@keyframes radial5 {
+    0%   {left:526px; top:521px;}
+    15%  {left:250px; top:700px;}
+    25%  {left:100px; top:350px;}
+    50%  {left:600px; top:500px;}
+    75%  {left:400px; top:150px;}
+    100% {left:500px; top:200px;}
+  } 
