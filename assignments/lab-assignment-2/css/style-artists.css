@@ -1,11 +1,16 @@
+body {
+    background: url(88rising-about.jpg) no-repeat;
+    background-size: cover
+}
+
 .primary-header {
-    display: flex;
+    flex-direction: column;
     font-family: 'Limelight', cursive;
     margin-top: -1%;
     margin-left: 1%;
     font-size: 20px;
-    background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #f3ec78, #B38728);
+    background-color:  hsl(57, 84%, 71%);
+    background-image: linear-gradient(45deg, hsl(57, 84%, 71%), hsl(41, 63%, 43%));
     background-size: 50%;
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -34,11 +39,11 @@ h1 {
 .menu ul li {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
+    margin-block-start: 0em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
+    margin-inline-start: 30px;
     margin-inline-end: 5px;
-    padding-inline-start: 50px;
+    padding-inline-start: 10px;
 }
 
 .post {

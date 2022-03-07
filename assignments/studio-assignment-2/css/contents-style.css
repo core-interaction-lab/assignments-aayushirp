@@ -20,7 +20,7 @@ background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568)
 }
 
 #radial1:hover {
-    filter: contrast();
+    filter: invert();
 }
 
  @keyframes radial1 {
