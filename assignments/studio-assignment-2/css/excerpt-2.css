@@ -56,7 +56,7 @@ body {
 }
 
 .blurbox{
-    left: -5%;
+    left: 2%;
     top: 18%;
     z-index: 0;
     background-color: rgba(222, 213, 199, 0.5);
@@ -64,7 +64,7 @@ body {
     position: absolute;
     width: 543px;
     height: 481px;
-    margin-top: -100px;
+    margin-top: 600px;
 }
 
 .blurbox2{
@@ -76,11 +76,11 @@ body {
     position: absolute;
     width: 661px;
     height: 871px;
-    margin-top: -100px;
+    margin-top: -280px;
 }
 
 .blurbox3{
-    left: 10%;
+    left: 40%;
     top: 1180%;
     z-index: 34;
     background-color: rgba(222, 213, 199, 0.5);
@@ -88,39 +88,39 @@ body {
     position: absolute;
     width: 653px;
     height: 654px;
-    margin-top: -100px;
+    margin-top: 160px;
 }
 
 .radial-circles {
     position: relative;
 }
 
-#radial {
+#radial4 {
     position: absolute;
-    width: 900px;
-    height: 1031px;
-    left: 540px;
-    top: 23px;
-    margin-top: -50px;
+    width: 700px;
+    height: 700px;
+    margin-top: 390px;
+    margin-left: -90px;
     background: radial-gradient(54.66% 50.66% at 50% 50%, rgba(185, 138, 66, 1) 0%, rgba(217, 171, 89, 0.706386) 55.96%, rgba(252, 218, 151, 0) 91.67%);
     z-index: -1;
 }
 
-#radial2 {
-    height: 700px;
-    width: 700px;
-    margin-left: -230px;
-    margin-top: -240px;
+#radial5 {
+    height: 1012px;
+    width: 905px;
+    left: 540px;
+    margin-left: 130px;
+    margin-top: -440px;
     position: absolute;
     background-image: radial-gradient(80% 490px at center,rgba(185,138,66,1) 0%,rgba(217,171,89,0.8113839285714286) 31%, rgba(252,218,151,0) 60%);
     z-index: -1;
 }
 
-#radial3 {
-    height: 902px;
-    width: 939px;
-    margin-left: -130px;
-    margin-top: 640px;
+#radial6 {
+    height: 1102px;
+    width: 1139px;
+    margin-left: 330px;
+    margin-top: 740px;
     position: absolute;
     background-image: radial-gradient(50% 50% at center,rgba(185,138,66,1) 0%,rgba(217,171,89,0.8113839285714286) 31%, rgba(252,218,151,0) 60%);
     z-index: -1;
@@ -152,8 +152,8 @@ body {
     font-family: 'Rampart One', cursive;
     width: 48px;
     line-height: 160px;
-    margin-top: 50px;
-    margin-left: 450px;
+    margin-top: 10px;
+    margin-left: 470px;
     font-size: 156px;
 }
 
@@ -180,12 +180,13 @@ body {
 
 #p1 {
     color:  #e0c28a79;
-    font-size: 27px;
-    line-height: 35px;
-    margin-left: 30px;
+    font-size: 47px;
+    line-height: 54px;
+    margin-left: 450px;
     margin-top: -100px;
-    width: 600px;
-    height: 319px;
+    width: 900px;
+    height: 219px;
+    text-align: right;
     font-family: 'ra-med';
     z-index: 1;
 }
@@ -200,11 +201,11 @@ body {
 
 #p2 {
     color:  #e0c28a79;
-    font-size: 44px;
-    line-height: 51px;
-    margin-left: 530px;
-    margin-top: -90px;
-    text-align: right;
+    font-size: 24px;
+    line-height: 31px;
+    margin-left: 30px;
+    margin-top: 500px;
+    text-align: left;
     width: 730px;
     height: 617px;
     font-family: 'ra-med';
@@ -221,12 +222,11 @@ body {
 
 #p3 {
     color:  #e0c28a79;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 39px;
-    margin-left: 180px;
-    margin-top: 160px;
-    width: 750px;
-    height: 617px;
+    margin-left: 480px;
+    margin-top: -200px;
+    width: 700px;
     font-family: 'ra-med';
     z-index: 1;
 }
@@ -289,12 +289,24 @@ span {
     border-radius: 60px;
 }
 
+
+.back-arrow{
+    font-size: 6vw;
+    color: #7c540b;
+    font-family: 'Rampart One' cursive;
+    margin-left: 2%;
+    margin-top: 10vw;
+    z-index: -1;
+}
+
 .next-arrow {
     font-size: 6vw;
     color: #7c540b;
     font-family: 'Rampart One' cursive;
     margin-left: 92%;
-    margin-top: -10vw;
+    margin-top: 10vw;
+    margin-bottom: 0;
+    z-index: -1;
 }
 
 a:link {
@@ -311,13 +323,4 @@ div a {
 
 a:-webkit-any-link {
     cursor: pointer;
-}
-
-@media (min-width: 50px) and (max-width: 600px) {
-    .container a {
-        margin-top: 2vh;
-        display: flex;
-        max-width: 50%;
-    }   
-
 }
