@@ -1,33 +1,111 @@
-#radial {
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: block;
+}
+
+.primary-header {
+    font-family: 'Smooch Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+    margin-block-start: 0em;
+    margin-block-end: 6em;
+    margin-inline-start: 1px;
+    margin-inline-end: 30px;
+    padding-inline-start: 1px;
+}
+
+.container a {
+    color: #b68429;
+    font-size: 30px;
+    font-family: 'Smooch Sans', sans-serif;
+    margin-left: 2%;
+    margin-top: 1%;
+    opacity: 100%;
+}
+
+.container a .link2 {
+    margin-right: 2%;
+    margin-top: 1%;
+    font-size: 30px;
+    color: #b68429;
+}
+
+.radial-circles {
     position: relative;
-    width: 800px;
-    height: 931px;
-    left: 670px;
+}
+
+#radial {
+    position: absolute;
+    width: 900px;
+    height: 1031px;
+    left: 540px;
     top: 23px;
     margin-top: -50px;
     background: radial-gradient(54.66% 50.66% at 50% 50%, rgba(185, 138, 66, 1) 0%, rgba(217, 171, 89, 0.706386) 55.96%, rgba(252, 218, 151, 0) 91.67%);
-    z-index: 0;
+    z-index: -1;
 }
 
 #radial2 {
     height: 700px;
     width: 700px;
     margin-left: -230px;
-    margin-top: -1000px;
-    position: relative;
+    margin-top: -240px;
+    position: absolute;
     background-image: radial-gradient(80% 490px at center,rgba(185,138,66,1) 0%,rgba(217,171,89,0.8113839285714286) 31%, rgba(252,218,151,0) 60%);
+    z-index: -1;
+}
+
+#radial3 {
+    height: 902px;
+    width: 939px;
+    margin-left: -130px;
+    margin-top: 640px;
+    position: absolute;
+    background-image: radial-gradient(50% 50% at center,rgba(185,138,66,1) 0%,rgba(217,171,89,0.8113839285714286) 31%, rgba(252,218,151,0) 60%);
     z-index: 0;
 }
 
 .para-1 {
     position: absolute;
-    width: 509px;
-    height: 2839px;
-    left: 778px;
-    top: 53px;
-    font-family: ra-med;
-    font-size: 34px;
-    color: #e0c28a79;
-    overflow-y: scroll;
+    font-family: 'ra-med';
 }
 
+#p1 {
+    color:  #e0c28a79;
+    font-size: 27px;
+    line-height: 31px;
+    margin-left: 30px;
+    width: 600px;
+    height: 319px;
+    z-index: -1;
+}
+
+#p2 {
+    color:  #e0c28a79;
+    font-size: 44px;
+    line-height: 51px;
+    margin-left: 580px;
+    margin-top: -90px;
+    width: 750px;
+    height: 617px;
+    z-index: 0;
+}
+
+@media (min-width: 50px) and (max-width: 600px) {
+    .container a {
+        margin-top: 2vh;
+        display: flex;
+        max-width: 50%;
+    }   
+
+}

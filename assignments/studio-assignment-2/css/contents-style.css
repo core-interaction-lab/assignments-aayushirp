@@ -32,15 +32,6 @@ body {
     color: #b68429;
 }
 
-@media (min-width: 50px) and (max-width: 600px) {
-    .container a {
-        margin-top: 2vh;
-        display: flex;
-        max-width: 50%;
-    }   
-
-}
-
 #table-of-contents{
     margin: 0 auto;
     overflow: scroll;
@@ -273,3 +264,12 @@ font-family: 'Smooch Sans', sans-serif;
     75%  {left:250px; top:-100px;}
     100% {left:40px; top:100px;}
   }
+
+  @media (min-width: 50px) and (max-width: 600px) {
+    .container a {
+        margin-top: 2vh;
+        display: flex;
+        max-width: 50%;
+    }   
+
+}
