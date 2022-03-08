@@ -1,27 +1,88 @@
-#table-of-contents{
-    padding-right: -100px;
-    padding-bottom: -1000px;
+body {
+    margin: 0;
+    padding: 0;
 }
 
+.container {
+    display: block;
+}
+
+.primary-header {
+    font-family: 'Smooch Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container a {
+    color: #b68429;
+    font-size: 30px;
+    font-family: 'Smooch Sans', sans-serif;
+    margin-left: 2%;
+    margin-top: 1%;
+    opacity: 70%;
+}
+
+.container h2 {
+    margin-right: 3%;
+    margin-top: 1%;
+    font-size: 30px;
+    color: #b68429;
+}
+
+@media (min-width: 50px) and (max-width: 600px) {
+    .container a {
+        margin-top: 2vh;
+        display: flex;
+        max-width: 50%;
+    }   
+
+}
+
+#table-of-contents{
+    margin: 0 auto;
+    overflow: scroll;
+    flex: 1;
+    position: relative;
+}
+
+div {
+    display: block;
+}
 
 #radial1 {
-position: relative;
-width: 635px;
-height: 629px;
-left: 900px;
-top: 262px;
+position: absolute;
+width: 526px;
+height: 521px;
+/* left: 900px;
+top: 262px; */
 background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568) 0%, rgba(217, 171, 89, 0.376386) 48.96%, rgba(252, 218, 151, 0) 91.67%);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 240px;
+    font-size: 50px;
+    font-family: 'Smooch Sans', sans-serif;
+    color: #e0c28a79;
+}
+
+h1:hover {
+    position:absolute;
 }
 
 #radial1 {
     animation-name: radial1;
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-iteration-count:infinite;
 }
 
 #radial1:hover {
     filter: invert();
 }
+
 
  @keyframes radial1 {
     0%   {left:700px; top:200px;}
@@ -33,115 +94,182 @@ background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568)
 } 
 
 #radial2 {
-position: relative;
+position: absolute;
 width: 526px;
 height: 521px;
-left: 650px;
-top: -790px;
+/* left: 650px;
+top: -790px; */
 background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568) 0%, rgba(217, 171, 89, 0.376386) 48.96%, rgba(252, 218, 151, 0) 91.67%);
+font-size: 30px;
+font-family: 'Smooch Sans', sans-serif;
 }
 
 #radial2 {
     animation-name: radial2;
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-iteration-count:infinite;
 }
 
 #radial2:hover {
-    filter: contrast();
+    filter: invert();
 }
 
  @keyframes radial2 {
-    0%   {left:100px; top:300px;}
-    15%  {left:250px; top:100px;}
-    25%  {left:400px; top:100px;}
-    50%  {left:500px; top:300px;}
-    75%  {left:250px; top:250px;}
-    100% {left:500px; top:200px;}
+    0%   {left:100px; top:100px;}
+    15%  {left:10px; top:350px;}
+    25%  {left:350px; top:400px;}
+    50%  {left:250px; top:300px;}
+    75%  {left:350px; top:350px;}
+    100% {left:800px; top:300px;}
   }   
 
 #radial3 {
-    position: relative;
+    position: absolute;
     width: 526px;
     height: 521px;
-    left: 250px;
-    top: -990px;
+    /* left: 250px;
+    top: -990px; */
     background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568) 0%, rgba(217, 171, 89, 0.376386) 48.96%, rgba(252, 218, 151, 0) 91.67%);
+    font-size: 30px;
+    font-family: 'Smooch Sans', sans-serif;
 }
 
 #radial3 {
     animation-name: radial3;
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-iteration-count:infinite;
 }
 
 #radial3:hover {
-    filter: contrast();
+    filter: invert();
 }
 
-
- @keyframes radial3 {
-    0%   {left:300px; top:500px;}
-    15%  {left:150px; top:200px;}
-    25%  {left:500px; top:150px;}
-    50%  {left:100px; top:600px;}
-    75%  {left:450px; top:250px;}
-    100% {left:500px; top:200px;}
-  } 
+@keyframes radial3 {
+    0%   {left:5px; top:1px;}
+    15%  {left:150px; top:50px;}
+    25%  {left:10px; top:390px;}
+    50%  {left:750px; top:10px;}
+    75%  {left:950px; top:50px;}
+    100% {left:100px; top:300px;}
+  }
 
 
 #radial4 {
-    position: relative;
+    position: absolute;
     width: 526px;
     height: 521px;
-    left: -150px;
-    top: -1790px;
+    /* left: -150px;
+    top: -1790px; */
     background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568) 0%, rgba(217, 171, 89, 0.376386) 48.96%, rgba(252, 218, 151, 0) 91.67%);
+    font-size: 30px;
+    font-family: 'Smooch Sans', sans-serif;
 }
 
 #radial4 {
     animation-name: radial4;
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-iteration-count:infinite;
 }
 
 #radial4:hover {
-    filter: contrast();
+    filter: invert();
 }
 
 @keyframes radial4 {
-    0%   {left:500px; top:100px;}
-    15%  {left:250px; top:700px;}
-    25%  {left:100px; top:350px;}
-    50%  {left:600px; top:500px;}
-    75%  {left:400px; top:150px;}
-    100% {left:500px; top:200px;}
-  } 
+    0%   {left:960px; top:-100px;}
+    15%  {left:10px; top:-20px;}
+    25%  {left:400px; top:90px;}
+    50%  {left:-100px; top:300px;}
+    75%  {left:-50px; top:0px;}
+    100% {left:900px; top:50px;}
+  }
 
 #radial5 {
-    position: relative;
+    position: absolute;
     width: 526px;
     height: 521px;
-    left: -10px;
-    top: -1790px;
-    background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568) 0%, rgba(217, 171, 89, 0.376386) 48.96%, rgba(252, 218, 151, 0) 91.67%);
+    /* left: -10px;
+    top: -1790px; */
+    background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568) 0%, rgba(217, 171, 89, 0.376386) 48.96%, rgba(252, 218, 151, 0) 91.67%);\font-size: 30px;
+    font-size: 30px;
+    font-family: 'Smooch Sans', sans-serif;
 }
 
 #radial5 {
     animation-name: radial5;
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-iteration-count:infinite;
 }
 
 #radial5:hover {
-    filter: contrast();
+    filter: invert();
 }
 
 @keyframes radial5 {
-    0%   {left:526px; top:521px;}
-    15%  {left:250px; top:700px;}
-    25%  {left:100px; top:350px;}
-    50%  {left:600px; top:500px;}
-    75%  {left:400px; top:150px;}
-    100% {left:500px; top:200px;}
-  } 
+    0%   {left:960px; top:390px;}
+    15%  {left:700px; top:300px;}
+    25%  {left:-100px; top:0px;}
+    50%  {left:300px; top:10px;}
+    75%  {left:-50px; top:350px;}
+    100% {left:500px; top:-10px;}
+  }
+
+  #radial6 {
+    position: absolute;
+    width: 526px;
+    height: 521px;
+    /* left: -10px;
+    top: -1790px; */
+    background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568) 0%, rgba(217, 171, 89, 0.376386) 48.96%, rgba(252, 218, 151, 0) 91.67%);\font-size: 30px;
+    font-size: 30px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+#radial6 {
+    animation-name: radial6;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+}
+
+#radial6:hover {
+    filter: invert();
+}
+
+@keyframes radial6 {
+    0%   {left:-500px; top:-10px;}
+    15%  {left:400px; top:390px;}
+    25%  {left:700px; top:400px;}
+    50%  {left:-100px; top:-10px;}
+    75%  {left:550px; top:0px;}
+    100% {left:500px; top:400px;}
+  }
+
+#radial7 {
+    position: absolute;
+    width: 526px;
+    height: 521px;
+    /* left: -10px;
+    top: -1790px; */
+    background: radial-gradient(56.28% 56.28% at 50% 50%, rgba(185, 138, 66, 0.7568) 0%, rgba(217, 171, 89, 0.376386) 48.96%, rgba(252, 218, 151, 0) 91.67%);\font-size: 30px;
+    font-size: 30px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+#radial7 {
+    animation-name: radial7;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+}
+
+#radial7:hover {
+    filter: invert();
+}
+
+@keyframes radial7 {
+    0%   {left:400px; top:-10px;}
+    15%  {left:900px; top:-50px;}
+    25%  {left:990px; top:400px;}
+    50%  {left:430px; top:360px;}
+    75%  {left:250px; top:-100px;}
+    100% {left:40px; top:100px;}
+  }
