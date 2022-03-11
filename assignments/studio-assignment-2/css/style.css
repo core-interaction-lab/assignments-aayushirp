@@ -41,13 +41,18 @@ h2 {
     width: 488px;
     text-align: left;
     margin-left: 30px;
-    margin-top: 440px;
+    margin-top: 370px;
     margin-bottom: 0px;
     line-height: 100px;
     font-size: 130px;
     font-weight: bold;
     word-spacing: 5px;
     
+}
+
+h3 {
+    color: #ca9127;
+    margin-left: 30px;
 }
 
 h1 {
