@@ -60,34 +60,34 @@ body {
     top: 18%;
     z-index: 0;
     background-color: rgba(222, 213, 199, 0.5);
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(1.8px);
     position: absolute;
     width: 543px;
     height: 481px;
-    margin-top: 600px;
+    margin-top: 500px;
 }
 
 .blurbox2{
-    left: 50%;
-    top: 270%;
+    left: 47%;
+    top: 240%;
     z-index: 34;
     background-color: #ded5c780;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(1.8px);
     position: absolute;
-    width: 661px;
-    height: 871px;
-    margin-top: -280px;
+    width: 691px;
+    height: 631px;
+    margin-top: -250px;
 }
 
 .blurbox3{
     left: 40%;
-    top: 1180%;
+    top: 1000%;
     z-index: 34;
     background-color: rgba(222, 213, 199, 0.5);
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(1.8px);
     position: absolute;
     width: 653px;
-    height: 654px;
+    height: 554px;
     margin-top: 160px;
 }
 
@@ -106,18 +106,18 @@ body {
 }
 
 #radial5 {
-    height: 1012px;
-    width: 905px;
+    height: 700px;
+    width: 955px;
     left: 540px;
-    margin-left: 130px;
-    margin-top: -440px;
+    margin-left: 3px;
+    margin-top: -400px;
     position: absolute;
     background-image: radial-gradient(80% 490px at center,rgba(185,138,66,1) 0%,rgba(217,171,89,0.8113839285714286) 31%, rgba(252,218,151,0) 60%);
     z-index: -1;
 }
 
 #radial6 {
-    height: 1102px;
+    height: 802px;
     width: 1139px;
     margin-left: 330px;
     margin-top: 740px;
@@ -149,11 +149,11 @@ body {
     text-align: center;
     align-items: center;
     color: #5f471b;
-    font-family: 'Rampart One', cursive;
+    /* font-family: 'Rampart One', cursive; */
     width: 48px;
     line-height: 160px;
-    margin-top: 10px;
-    margin-left: 470px;
+    margin-top: 50px;
+    margin-left: 500px;
     font-size: 156px;
 }
 
@@ -180,9 +180,9 @@ body {
 
 #p1 {
     color:  #e0c28a79;
-    font-size: 47px;
-    line-height: 54px;
-    margin-left: 450px;
+    font-size: 40px;
+    line-height: 47px;
+    margin-left: 420px;
     margin-top: -100px;
     width: 900px;
     height: 219px;
@@ -204,7 +204,7 @@ body {
     font-size: 24px;
     line-height: 31px;
     margin-left: 30px;
-    margin-top: 500px;
+    margin-top: 370px;
     text-align: left;
     width: 730px;
     height: 617px;
@@ -289,13 +289,16 @@ span {
     border-radius: 60px;
 }
 
+footer {
+    display: flex;
+    margin-bottom: 0vw;
+}
 
 .back-arrow{
     font-size: 6vw;
     color: #7c540b;
     font-family: 'Rampart One' cursive;
     margin-left: 2%;
-    margin-top: 10vw;
     z-index: -1;
 }
 
@@ -303,9 +306,8 @@ span {
     font-size: 6vw;
     color: #7c540b;
     font-family: 'Rampart One' cursive;
-    margin-left: 92%;
-    margin-top: 10vw;
-    margin-bottom: 0;
+    margin-left: 85%;
+    /* margin-bottom: 0; */
     z-index: -1;
 }
 
