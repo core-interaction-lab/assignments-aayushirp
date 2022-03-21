@@ -56,7 +56,7 @@ body {
 }
 
 .blurbox{
-    left: 2%;
+    left: -5%;
     top: 18%;
     z-index: 0;
     background-color: rgba(222, 213, 199, 0.5);
@@ -64,63 +64,63 @@ body {
     position: absolute;
     width: 543px;
     height: 481px;
-    margin-top: 500px;
+    margin-top: -100px;
 }
 
 .blurbox2{
-    left: 47%;
-    top: 240%;
+    left: 50%;
+    top: 300%;
     z-index: 34;
     background-color: #ded5c780;
     backdrop-filter: blur(1.8px);
     position: absolute;
-    width: 691px;
-    height: 631px;
-    margin-top: -250px;
+    width: 661px;
+    height: 671px;
+    margin-top: -100px;
 }
 
 .blurbox3{
-    left: 40%;
-    top: 1000%;
+    left: 10%;
+    top: 1180%;
     z-index: 34;
     background-color: rgba(222, 213, 199, 0.5);
     backdrop-filter: blur(1.8px);
     position: absolute;
-    width: 653px;
-    height: 554px;
-    margin-top: 160px;
+    width: 663px;
+    height: 524px;
+    /* margin-top: -100px; */
 }
 
 .radial-circles {
     position: relative;
 }
 
-#radial4 {
+#radial {
     position: absolute;
-    width: 700px;
-    height: 700px;
-    margin-top: 390px;
-    margin-left: -90px;
+    width: 900px;
+    height: 1031px;
+    left: 540px;
+    top: 23px;
+    margin-top: -50px;
     background: radial-gradient(54.66% 50.66% at 50% 50%, rgba(185, 138, 66, 1) 0%, rgba(217, 171, 89, 0.706386) 55.96%, rgba(252, 218, 151, 0) 91.67%);
     z-index: -1;
 }
 
-#radial5 {
+#radial2 {
     height: 700px;
-    width: 955px;
-    left: 540px;
-    margin-left: 3px;
-    margin-top: -400px;
+    width: 700px;
+    margin-left: -230px;
+    margin-top: -240px;
     position: absolute;
     background-image: radial-gradient(80% 490px at center,rgba(185,138,66,1) 0%,rgba(217,171,89,0.8113839285714286) 31%, rgba(252,218,151,0) 60%);
     z-index: -1;
 }
 
-#radial6 {
-    height: 802px;
-    width: 1139px;
-    margin-left: 330px;
-    margin-top: 740px;
+#radial3 {
+    height: 902px;
+    width: 939px;
+    margin-left: -130px;
+    margin-top: 640px;
     position: absolute;
     background-image: radial-gradient(50% 50% at center,rgba(185,138,66,1) 0%,rgba(217,171,89,0.8113839285714286) 31%, rgba(252,218,151,0) 60%);
     z-index: -1;
@@ -153,7 +153,7 @@ body {
     width: 48px;
     line-height: 160px;
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 450px;
     font-size: 156px;
 }
 
@@ -180,13 +180,12 @@ body {
 
 #p1 {
     color:  #e0c28a79;
-    font-size: 40px;
-    line-height: 47px;
-    margin-left: 420px;
+    font-size: 27px;
+    line-height: 35px;
+    margin-left: 30px;
     margin-top: -100px;
-    width: 900px;
-    height: 219px;
-    text-align: right;
+    width: 520px;
+    height: 319px;
     font-family: 'ra-med';
     z-index: 1;
 }
@@ -201,10 +200,10 @@ body {
 
 #p2 {
     color:  #e0c28a79;
-    font-size: 24px;
-    line-height: 31px;
-    margin-left: 30px;
-    margin-top: 370px;
+    font-size: 37px;
+    line-height: 44px;
+    margin-left: 600px;
+    margin-top: -190px;
     text-align: left;
     width: 730px;
     height: 617px;
@@ -223,10 +222,11 @@ body {
 #p3 {
     color:  #e0c28a79;
     font-size: 30px;
-    line-height: 39px;
-    margin-left: 480px;
-    margin-top: -200px;
-    width: 700px;
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 300px;
+    width: 750px;
+    height: 617px;
     font-family: 'ra-med';
     z-index: 1;
 }
@@ -323,4 +323,13 @@ div a {
 
 a:-webkit-any-link {
     cursor: pointer;
+}
+
+@media (min-width: 50px) and (max-width: 600px) {
+    .container a {
+        margin-top: 2vh;
+        display: flex;
+        max-width: 50%;
+    }   
+
 }
