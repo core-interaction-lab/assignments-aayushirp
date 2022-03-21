@@ -118,3 +118,33 @@ footer {
     font-weight: normal;
 }
 
+@media (max-width: 900px) {
+
+    h2 {
+        margin-left: 50%;
+        width: 90%; 
+        height: auto; 
+        text-align: left;
+        align-content: flex-start;
+        margin: 1px;
+        padding: 20px;
+        padding-right: none;
+        font-size: 100px;
+        line-height: 70px;
+      }
+
+    h1 {
+        font-size: 13px;
+        color: #e0c28a79;
+        width: 90%;
+        height: 0px;
+        text-align: left;
+        align-content: flex-start;
+        line-height: 19pxs;
+        padding: 20px;
+        padding-right: none;
+    }
+    
+    }
+
+    
