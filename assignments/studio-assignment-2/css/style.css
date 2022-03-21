@@ -72,9 +72,8 @@ h1 {
 h1:hover {
     color: rgb(128, 77, 0);
     -webkit-transition: color 1s;
-    transition: color 1s ease;
-    transition-duration: 1s;
-    cursor: url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png'), auto;
+    transition: color .2s ease-in-out;
+    cursor: pointer, auto;
 }
 
 .title {
