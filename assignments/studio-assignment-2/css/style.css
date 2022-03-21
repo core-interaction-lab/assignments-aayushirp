@@ -74,7 +74,7 @@ h1:hover {
     -webkit-transition: color 1s;
     transition: color 1s ease;
     transition-duration: 1s;
-    cursor: pointer;
+    cursor: url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png'), auto;
 }
 
 .title {
