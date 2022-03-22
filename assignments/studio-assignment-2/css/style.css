@@ -53,6 +53,8 @@ h2 {
 h3 {
     color: #ca9127;
     margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Smooch Sans', sans-serif;
 }
 
 h1 {
@@ -118,7 +120,41 @@ footer {
     font-weight: normal;
 }
 
-@media (max-width: 900px) {
+
+
+
+@media (max-width: 850px) {
+
+    /* .main-content{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        align-items: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 2vh;
+    } */
+
+    #radial {
+        position: relative;
+        width: 500px;
+        height: 631px;
+        left: 3px;
+        top: 780px;
+        background: radial-gradient(54.66% 45.66% at 50% 50%, rgba(185, 138, 66, 1) 0%, rgba(217, 171, 89, 0.706386) 55.96%, rgba(252, 218, 151, 0) 91.67%);
+        z-index: 0;
+    }
+
+    #radial2 {
+        height: 700px;
+        width: 700px;
+        margin-left: -330px;
+        margin-top: -500px;
+        position: relative;
+        background-image: radial-gradient(80% 490px at center,rgba(185,138,66,1) 0%,rgba(217,171,89,0.8113839285714286) 31%, rgba(252,218,151,0) 60%);
+        z-index: 0;
+    }
+
 
     h2 {
         margin-left: 50%;
@@ -126,23 +162,55 @@ footer {
         height: auto; 
         text-align: left;
         align-content: flex-start;
-        margin: 1px;
+        margin: 0px;
+        margin-top: -300px;
         padding: 20px;
         padding-right: none;
-        font-size: 100px;
-        line-height: 70px;
+        font-size: 80px;
+        line-height: 65px;
+        z-index: 1;
       }
 
+    h3 {
+        margin-left: 5%;
+        font-size: 15px;
+        margin-top: 2%;
+    }
+
     h1 {
-        font-size: 13px;
+        display: flex;
+        font-size: 12px;
         color: #e0c28a79;
-        width: 90%;
-        height: 0px;
+        width: 70%;
+        margin-left: 12%;
+        margin-top: 290px;
         text-align: left;
         align-content: flex-start;
-        line-height: 19pxs;
-        padding: 20px;
-        padding-right: none;
+        line-height: 19px;
+        padding: 10px;
+    }
+
+    a {
+        height: 10px;
+        width: 90px;
+        padding: 15px 20px;
+        font-size: 18px;
+        line-height: 15px;
+        border-radius: 38px;
+        text-align: center;
+        margin-left: 160px;
+        margin-top: 470px;
+    }
+
+    footer {
+        color: #815c16;
+        font-family: 'Smooch Sans', sans-serif;
+        margin: 0;
+        margin-top: 0px;
+        text-align: right;
+        margin-left: 230px;
+        font-size: 15px;
+        font-weight: normal;
     }
     
     }
