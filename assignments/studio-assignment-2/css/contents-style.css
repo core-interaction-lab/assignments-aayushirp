@@ -265,11 +265,28 @@ font-family: 'Smooch Sans', sans-serif;
     100% {left:40px; top:100px;}
   }
 
-  @media (min-width: 50px) and (max-width: 600px) {
+@media (min-width: 50px) and (max-width: 600px) {
+    
     .container a {
         margin-top: 2vh;
         display: flex;
         max-width: 50%;
+        font-size: 20px;
     }   
+
+    .container h2 {
+        margin-top: 2vh;
+        display: flex;
+        max-width: 50%;
+        font-size: 20px;
+    }   
+
+    #table-of-contents{
+        margin: 0 auto;
+        flex: 1;
+        position: relative;
+        display: flex;
+        max-width: 50%;
+    }
 
 }
