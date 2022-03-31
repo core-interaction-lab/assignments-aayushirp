@@ -1,0 +1,60 @@
+hml, body {
+    min-height: 100%;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    height: 100vh;
+    background-size: 800px;
+}
+
+h1{
+    margin: 57px;
+    margin-left: 30px;
+    text-align: left;
+    line-height: 90px;
+    font-size: 70px;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 0px;
+    max-width: 700px;
+}
+
+
+.content {
+    display: flex;
+}
+
+.primary-header {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+}
+
+.menu ul li {
+    margin: 0 1rem;
+}
+
+.btn {
+    padding: 10px;
+    float: right;
+    margin-right: 20px;
+    margin: 20px;
+}
