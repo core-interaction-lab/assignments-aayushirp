@@ -1,0 +1,62 @@
+hml, body {
+    min-height: 100%;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    height: 100vh;
+    background-size: 800px;
+}
+
+h1{
+    margin: 10px;
+    margin-left: 10px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content {
+    background-color: darkorange;
+    height: 50vw;
+    width: 95%;
+    z-index: 0;
+}
+
+#picture {
+    width: 50%;
+    height: 80%;
+    background-color: darkgreen;
+    align-items: center;
+}
+
+.buttons {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 10px auto 0px;
+    z-index: 3;
+}
+
+@media only screen and (min-width: 64rem) {
+    .wrapper {
+        width: 103%;
+        }
+}
