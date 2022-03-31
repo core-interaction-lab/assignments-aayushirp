@@ -13,8 +13,8 @@ h1{
     margin: 10px;
     margin-left: 10px;
     text-align: left;
-    line-height: 30px;
-    font-size: 25px;
+    line-height: 25px;
+    font-size: 20px;
 }
 
 main {
@@ -44,15 +44,31 @@ section{
     height: 80%;
     background-color: darkgreen;
     align-items: center;
+    text-align: center;
 }
 
-.buttons {
+#buttons {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin: 10px auto 0px;
+    margin: 180px;
+    width: 1000px;
+    align-items: center;
+    margin-top: -370px;
     z-index: 3;
+}
+
+.no_btn {
+    padding: 50px;
+    border-radius: 56px;
+    width: 80px;
+}
+
+.yes_btn {
+    padding: 50px;
+    border-radius: 56px;
+    width: 80px;
 }
 
 @media only screen and (min-width: 64rem) {
@@ -60,3 +76,4 @@ section{
         width: 103%;
         }
 }
+
