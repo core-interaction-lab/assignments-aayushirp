@@ -15,9 +15,9 @@ const fetchSongs = async () => {
         const songcoverEl = document.createElement('div');
         const descriptionEl = document.createElement('div');
 
-        var img = document.createElement("song-cover");
-        img.src = "https://dl.airtable.com/.attachmentThumbnails/b62c025994af6faf7162abf18af6b36c/058a0ce3";
-        img.style.width = '400px';
+        var song = document.createElement("img");
+        song.src = "https://dl.airtable.com/.attachmentThumbnails/73a5b8ffacd06ce831530e2089c29498/db3662e3";
+        song.style.width = '300px';
 
         var div = document.getElementById("songs-container");
     
@@ -42,7 +42,7 @@ const fetchSongs = async () => {
         spotifyUrlEl.classList.add('spotify-link');
         spotifyUrlEl.innerHTML = "Spotify Link";
 
-        articleEl.append(titleEl, genreEl, spotifyUrlEl, releasedateEl, descriptionEl, songcoverEl);
+        articleEl.append(titleEl, genreEl, spotifyUrlEl, releasedateEl, descriptionEl, song);
 
         songsContainer.appendChild(articleEl);
     });
