@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(0, 0%, 0%);
+}
+
+.title{
+    font-family: 'Bebas Neue', cursive;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 80px;
+    line-height: 90px;
+    padding: 50px;
+}
+
+.release-date{
+    font-family: 'Bebas Neue', cursive;
+    color: hsl(102, 61%, 78%);
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.genre{
+    font-family: 'Bebas Neue', cursive;
+    color: hsl(102, 61%, 78%);
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 3%;
+}
+
+.spotify-link{
+    padding-left: 47%;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.description{
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 32%;
+    color: hsl(102, 61%, 78%);
+    width: 500px;
+}
