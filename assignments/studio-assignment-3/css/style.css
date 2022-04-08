@@ -3,7 +3,7 @@ hml, body {
 }
 
 body {
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(123, 75%, 12%);
     margin: 0;
     height: 100vh;
     background-size: 800px;
