@@ -11,6 +11,7 @@ body {
 
 .logo{
     padding: 6px;
+    z-index: 3;
 }
 
 main {
@@ -28,31 +29,66 @@ section{
     flex-direction: column;
 }
 
-#main-content {
-    
+.soupside{
+    position: absolute;
+    width: 706px;
+    height: 994px;
+    left: 0px;
+    top: 0px;
+    background: rgba(245, 119, 48, 0.44);
+    z-index: -1;
 }
 
-#picture {
-    width: 50%;
-    height: 80%;
-    background-color: darkgreen;
-    align-items: center;
-    text-align: center;
+.saladside{
+    position: absolute;
+    width: 690px;
+    height: 994px;
+    left: 706px;
+    top: 0px;
+    background: rgba(64, 145, 43, 0.53);
 }
 
-#buttons {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    margin: 180px;
-    width: 1000px;
-    align-items: center;
-    margin-top: -370px;
-    z-index: 3;
+#item-title{
+    position: absolute;
+    width: 303px;
+    height: 71px;
+    left: 585px;
+    top: 30px;
+    font-family: 'GT Eesti Display Trial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    color: #144408;
 }
 
-.no_btn {
+.picture{
+    position: absolute;
+    width: 570px;
+    height: 535px;
+    top: 168px;
+    border-radius: 106px;
+    z-index: 2;
+}
+
+.icon2{
+    position: absolute;
+    width: 157px;
+    height: 157px;
+    left: 1190px;
+    top: 337px;
+}
+
+.icon{
+    position: absolute;
+    width: 157px;
+    height: 157px;
+    left: 37px;
+    top: 337px;
+}
+
+
+
+/* .no_btn {
     padding: 50px;
     border-radius: 56px;
     width: 80px;
@@ -62,7 +98,7 @@ section{
     padding: 50px;
     border-radius: 56px;
     width: 80px;
-}
+} */
 
 /* @media only screen and (min-width: 64rem) {
     .wrapper {
