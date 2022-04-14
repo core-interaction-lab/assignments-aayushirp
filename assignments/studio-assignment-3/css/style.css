@@ -90,9 +90,47 @@ a {
     }
 }
 
-/* .btn {
-    padding: 10px;
-    float: right;
-    margin-right: 20px;
+#contentframe {
+    width: 690px;
+    height: 630px;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(4px);
+    border-radius: 31px;
     margin: 20px;
-} */
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+}
+
+h2{
+    font-family: 'GT Eesti Display Trial';
+    color: hsl(123, 83%, 14%);
+    font-size: 50px;
+}
+
+.instructions{
+    font-family: 'Hiragino Kaku Gothic Pro';
+    color: hsl(128, 7%, 23%);
+    width: 600px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'GT Eesti Display Trial';
+    color: hsl(8, 100%, 52%);
+    font-size: 30px;
+}
+
+.instruction button{
+    width: 40%;
+    height: 10%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: hsl(8, 100%, 52%);
+    color: hsl(15, 29%, 97%);
+    border-radius: 30px;
+}
+
+.quizbtn{
+    font-size: 30px;
+}

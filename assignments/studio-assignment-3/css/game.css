@@ -9,12 +9,8 @@ body {
     background-size: 800px;
 }
 
-h1{
-    margin: 10px;
-    margin-left: 10px;
-    text-align: left;
-    line-height: 25px;
-    font-size: 20px;
+.logo{
+    padding: 6px;
 }
 
 main {
@@ -33,10 +29,7 @@ section{
 }
 
 #main-content {
-    background-color: darkorange;
-    height: 50vw;
-    width: 95%;
-    z-index: 0;
+    
 }
 
 #picture {
@@ -71,9 +64,9 @@ section{
     width: 80px;
 }
 
-@media only screen and (min-width: 64rem) {
+/* @media only screen and (min-width: 64rem) {
     .wrapper {
         width: 103%;
         }
-}
+} */
 
