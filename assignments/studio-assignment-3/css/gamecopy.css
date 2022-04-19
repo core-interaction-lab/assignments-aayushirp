@@ -1,0 +1,137 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    height: 100vh;
+    background-size: 800px;
+}
+
+.logo{
+    padding: 6px;
+    z-index: 3;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+    margin-top: -79px;
+}
+
+.menu ul li {
+    margin: 0 2rem;
+}
+
+a {
+    font-family: 'GT Eesti Display Trial';
+    color: hsl(15, 29%, 97%);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.soupside{
+    position: absolute;
+    width: 700px;
+    height: 767px;
+    left: 0px;
+    top: 0px;
+    background: hsl(8, 100%, 52%);
+    z-index: -1;
+}
+
+.saladside{
+    position: absolute;
+    width: 700px;
+    height: 767px;
+    left: 700px;
+    top: 0px;
+    background: hsl(123, 83%, 14%);
+    z-index: -1;
+}
+
+h2{
+    font-family: 'Bogam';
+    color: hsl(0, 0%, 100%);
+    font-weight: 100;
+    margin: 57px;
+    margin-top: -40px;
+    margin-left: 60px;
+    font-size: 85px;
+    z-index: 3;
+}
+
+.picture{
+    position: absolute;
+    width: 570px;
+    height: 535px;
+    top: 168px;
+    border-radius: 106px;
+    z-index: 2;
+    filter: saturate(0);
+}
+
+.icon2{
+    position: absolute;
+    width: 157px;
+    height: 157px;
+    left: 1190px;
+    top: 337px;
+    opacity: 70%;
+}
+
+.icon{
+    position: absolute;
+    width: 157px;
+    height: 157px;
+    left: 37px;
+    top: 337px;
+    opacity: 70%;
+}
+
+h3{
+    font-family: 'GT Eesti Display Trial';
+    color: hsl(0, 0%, 100%);
+    font-weight: 100;
+    margin: 57px;
+    margin-top: 300px;
+    margin-left: 59px;
+    font-size: 19px;
+}
+
+.salad-title{
+    font-family: 'GT Eesti Display Trial';
+    color: hsl(0, 0%, 100%);
+    font-weight: 100;
+    margin: 57px;
+    margin-top: -80px;
+    margin-left: 1210px;
+    font-size: 19px;
+}
+
+
