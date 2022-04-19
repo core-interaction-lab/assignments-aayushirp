@@ -106,7 +106,7 @@ a {
     border-radius: 25px;
     border: 2px solid black;
     padding: 0.7em;
-    width: fit-content;
+    width: 100px;
     height: 2vh;
     display: flex;
     align-items: center;
@@ -124,9 +124,61 @@ a {
     border-radius: 25px;
     padding: 0.3em;
     width: 100px;
+    cursor: pointer;
 }
 
-.grid{
+.btn:hover {
+    background-color: #ddd;
+  }
+  
+.btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'column1 column2 column3';
+    gap: 1em;
+    width: 80vw;
+    height: fit-content;
+    padding: 2em;
+    justify-content: center;
+    margin-left: 230px;
+    margin-top: 0px;
+}
+
+.grid-container > div{
+    text-align: center;
+    padding: 1.25rem 0;
+    font-size: 1.875rem;
+}
+
+.item1{
+    grid-area: column1;
+}
+
+.photo{
+    max-width: 45vh;
+    justify-content: center;
+    padding-bottom: 0.2em;
+    margin-top: 100px;
+}
+
+h3{
+    font-family: 'GT Eesti Display Trial';
+    font-size: 20px;
+}
+
+.item2{
+    grid-area: column2;
+}
+
+  
+
+
+/* .grid{
     line-height: 0;
     margin-top: 10px;
 
@@ -136,5 +188,8 @@ a {
     -moz-column-gap: 0px;
     column-count: 4;
     column-gap: 10px;
-}
+} */
 
+/* #airtable-embed{
+    margin-left: 50px;
+} */

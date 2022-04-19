@@ -23,7 +23,7 @@
         </nav>
         </header>
 
-        <div>
+        <div class="foodContainer">
             <div class="filter">
 				<div class="filter-container">
 					<div class="filterby-container">
@@ -31,30 +31,59 @@
 					</div>
 
 				<div class="filter-category-container">
-                    <button class="btn" onclick="filterSelection('Soup')"> Soup</button>
-					<!--
-					<img class="icon" src=""> -->
+                    <button class="btn" id="soup" onclick="filterSelection('Soup')"> Soup</button>
 				</div>
 
 				<div class="filter-category-container">
-                    <button class="btn" onclick="filterSelection('Salad')"> Salad</button>
-					<!-- 
-					<img class="icon" src=""> -->
+                    <button class="btn" id="salad" onclick="filterSelection('Salad')"> Salad</button>
 				</div>
 
 				<div class="filter-category-container">
                     <button class="btn" onclick="filterSelection('Cuisine')"> Cusine</button>
-					<!-- 
-					<img class="icon" src=""> -->
 				</div>
 				</div>
 			</div>
         </div>
 
-        <div class="food-gallery">
-            <div class="grid-container"></div>
+        -------
+
+        <!-- <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+            <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+            <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+            <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+          </div> -->
+
+          ------
+
+        <div class="food-container">
+            <div class="grid-container">
+
+            <div class="filterDiv soup" id="item1">
+                <img src="images/chicken-noodle-soup.jpg" alt="chicken-noodle-soup" class="photo">
+                <h3 class="title">Chicken Noodle Soup</h3>
+            </div>
+
+            <div class="filterDiv salad" id="item2">
+                <img src="images/maple_syrup_pancake.png" alt="maple_syrup_pancake" class="photo">
+            </div>
+
+            <div class="filterDiv soup" id="item3">
+                <img src="images/cheese-fondue.jpg" alt="cheese-fondue" class="photo">
+            </div>
+
+            <div class="filterDiv salad" id="item4">
+                <img src="images/open-sandwich.jpg" alt="open-sandwich" class="photo">
+            </div>
+
+            <div class="filterDiv soup" id="item5">
+                <img src="images/kheer.jpeg" alt="kheer" class="photo">
+            </div>
+
+            </div>
         </div>
 
     </body>
     </html>
-    <script src="filter.js"></script>
+    <script src="js/filter.js"></script>
