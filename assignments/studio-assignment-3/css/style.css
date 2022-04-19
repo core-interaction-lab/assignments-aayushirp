@@ -1,4 +1,4 @@
-hml, body {
+html, body {
     min-height: 100%;
 }
 
@@ -15,7 +15,7 @@ hml, body {
 body {
     background-color: hsl(123, 83%, 14%);
     margin: 0;
-    height: 100vh;
+    height: 200vh;
     background-size: 800px;
 }
 
@@ -45,10 +45,6 @@ p {
     display: flex;
 }
 
-.primary-header {
-    display: flex;
-}
-
 .menu {
     display: flex;
     justify-content: flex-end;
@@ -56,7 +52,7 @@ p {
 
 .menu ul {
     list-style-type: none;
-    padding: 0;
+    padding: 1px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -64,7 +60,7 @@ p {
 }
 
 .menu ul li {
-    margin: 0 1rem;
+    margin: 0 2rem;
 }
 
 a {
