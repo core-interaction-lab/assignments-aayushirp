@@ -1,0 +1,50 @@
+html, body {
+    min-height: 100%;
+}
+
+@font-face {
+    font-family: 'Bogam';
+    src: url('fonts/Bogam.otf');
+}
+
+@font-face {
+    font-family: 'GT Eesti Display Trial';
+    src: url('fonts/GT-Eesti-Display-Regular-Trial.otf');
+}
+
+body {
+    background-color: hsl(123, 83%, 14%);
+    margin: 0;
+    height: 200vh;
+    background-size: 800px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+    margin-top: -65px;
+}
+
+.menu ul li {
+    margin: 0 2rem;
+}
+
+a {
+    font-family: 'GT Eesti Display Trial';
+    color: hsl(15, 29%, 97%);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo{
+    padding: 6px;
+}

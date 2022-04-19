@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Food Collection</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/filter.css"/>
+    </head>
+
+    <body>
+        <header class="primary-header">
+                <a href="index.html">
+                    <img src="images/souporsaladicon.png" class="logo" width="80" height="80">
+                    </a>
+            <nav class="menu">
+            <ul>
+                <li>
+                    <a href="" class="current">Filter</a>
+                </li>
+                <li>
+                    <a href="#">About Collection</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+
+        <div>
+            <div class="filter">
+				<div class="filter-container">
+					<div class="filterby-container">
+						<div class="filter-text">filter by</div>
+					</div>
+
+				<div class="filter-category-container">
+                    <button class="btn" onclick="filterSelection('Soup')"> Soup</button>
+					<!--
+					<img class="icon" src=""> -->
+				</div>
+
+				<div class="filter-category-container">
+                    <button class="btn" onclick="filterSelection('Salad')"> Salad</button>
+					<!-- 
+					<img class="icon" src=""> -->
+				</div>
+
+				<div class="filter-category-container">
+                    <button class="btn" onclick="filterSelection('Cuisine')"> Cusine</button>
+					<!-- 
+					<img class="icon" src=""> -->
+				</div>
+				</div>
+			</div>
+        </div>
+
+        <div class="food-gallery">
+            <div class="grid-container"></div>
+        </div>
+
+    </body>
+    </html>
+    <script src="filter.js"></script>
