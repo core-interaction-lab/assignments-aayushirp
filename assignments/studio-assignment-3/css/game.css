@@ -19,6 +19,32 @@ body {
     z-index: 3;
 }
 
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+    margin-top: -79px;
+}
+
+.menu ul li {
+    margin: 0 2rem;
+}
+
+a {
+    font-family: 'GT Eesti Display Trial';
+    color: hsl(15, 29%, 97%);
+    text-decoration: none;
+    font-size: 18px;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
