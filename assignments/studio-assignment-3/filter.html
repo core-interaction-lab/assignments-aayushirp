@@ -30,57 +30,51 @@
 						<div class="filter-text">filter by</div>
 					</div>
 
-				<div class="filter-category-container">
-                    <button class="btn" id="soup" onclick="filterSelection('Soup')"> Soup</button>
-				</div>
+                    <div id="buttons">
+                        <button class="btn" onclick="filterObjects('all')">Show all</button>
+                        <br>
+                        <br>
+                        <button class="btn" onclick="filterObjects('soup')">Soup</button>
+                        <br>
+                        <br>
+                        <button class="btn" onclick="filterObjects('salad')">Salad</button>
+                        <br>
+                        <br>
+                        <button class="btn" onclick="filterObjects('sweet')">Sweet</button>
+                        <br>
+                        <br>
+                        <button class="btn" onclick="filterObjects('savoury')">Savoury</button>
+                    </div>
 
-				<div class="filter-category-container">
-                    <button class="btn" id="salad" onclick="filterSelection('Salad')"> Salad</button>
-				</div>
-
-				<div class="filter-category-container">
-                    <button class="btn" onclick="filterSelection('Cuisine')"> Cusine</button>
-				</div>
 				</div>
 			</div>
         </div>
 
-        -------
-
-        <!-- <div id="myBtnContainer">
-            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-            <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-            <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-            <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-            <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-          </div> -->
-
-          ------
-
         <div class="food-container">
             <div class="grid-container">
+                <!-- <div class="box"> -->
 
-            <div class="filterDiv soup" id="item1">
-                <img src="images/chicken-noodle-soup.jpg" alt="chicken-noodle-soup" class="photo">
-                <h3 class="title">Chicken Noodle Soup</h3>
-            </div>
+                    <div class="box soup savoury" id="item1">
+                        <img src="images/chicken-noodle-soup.jpg" alt="chicken-noodle-soup" class="photo">
+                        <h3 class="title">Chicken Noodle Soup</h3>
+                    </div>
 
-            <div class="filterDiv salad" id="item2">
-                <img src="images/maple_syrup_pancake.png" alt="maple_syrup_pancake" class="photo">
-            </div>
+                    <div class="box salad sweet" id="item2">
+                        <img src="images/maple_syrup_pancake.png" alt="maple_syrup_pancake" class="photo">
+                    </div>
 
-            <div class="filterDiv soup" id="item3">
-                <img src="images/cheese-fondue.jpg" alt="cheese-fondue" class="photo">
-            </div>
+                    <div class="box soup savoury" id="item3">
+                        <img src="images/cheese-fondue.jpg" alt="cheese-fondue" class="photo">
+                    </div>
 
-            <div class="filterDiv salad" id="item4">
-                <img src="images/open-sandwich.jpg" alt="open-sandwich" class="photo">
-            </div>
+                    <div class="box salad savoury" id="item4">
+                        <img src="images/open-sandwich.jpg" alt="open-sandwich" class="photo">
+                    </div>
 
-            <div class="filterDiv soup" id="item5">
-                <img src="images/kheer.jpeg" alt="kheer" class="photo">
-            </div>
-
+                    <div class="box soup sweet" id="item5">
+                        <img src="images/kheer.jpeg" alt="kheer" class="photo">
+                    </div>
+                <!-- </div> -->
             </div>
         </div>
 
