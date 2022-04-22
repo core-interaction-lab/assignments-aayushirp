@@ -19,6 +19,7 @@ body {
     background-size: 900px;
 }
 
+
 .primary-header{
     display: block;
     position: fixed;
@@ -130,6 +131,10 @@ a {
     margin-left: 10px;
 }
 
+.show{
+    display: block;
+}
+
 .btn{
     font-family: 'GT Eesti Display Trial';
     font-size: 1.4em;
@@ -171,17 +176,17 @@ a {
     margin-top: -35px;
 }
 
-.grid-container > div{
+.box{
     text-align: center;
     padding: 1.25rem 0;
     font-size: 1.875rem;
     margin-bottom: -90px;
-    /* display: none; */
+    display: none;
 }
 
-.item1{
+/* .item1{
     grid-area: column1;
-}
+} */
 
 .photo{
     max-width: 45vh;
@@ -197,9 +202,9 @@ h3{
     color: hsl(15, 29%, 97%);
 }
 
-.item2{
+/* .item2{
     grid-area: column2;
-}
+} */
 
   
 
