@@ -36,9 +36,9 @@ document.querySelector('.soupside button').addEventListener('click', evt => {
     modalEl.classList.add('active');
     const contentEl = modalEl.querySelector('.modal__content');
     if (titleEl.dataset.type === "Soup") {
-        contentEl.innerHTML = 'Correct!';
+        contentEl.innerHTML = 'CORRECT! You got that right.';
     } else {
-        contentEl.innerHTML = 'Incorrect!';
+        contentEl.innerHTML = 'INCORRECT! Try Again by clicking the refresh button';
     }
 });
 
@@ -48,9 +48,9 @@ document.querySelector('.saladside').addEventListener('click', evt => {
     modalEl.classList.add('active');
     const contentEl = modalEl.querySelector('.modal__content');
     if (titleEl.dataset.type === "Salad") {
-        contentEl.innerHTML = 'Correct!';
+        contentEl.innerHTML = 'CORRECT! You got that right.';
     } else {
-        contentEl.innerHTML = 'Incorrect!';
+        contentEl.innerHTML = 'INCORRECT! Try Again by clicking the refresh button';
     }
 });
 

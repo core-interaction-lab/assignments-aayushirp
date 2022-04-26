@@ -109,7 +109,7 @@ h2{
     margin: 57px;
     margin-top: -40px;
     margin-left: 60px;
-    font-size: 85px;
+    font-size: 70px;
     z-index: 3;
     text-align: center;
 }
@@ -118,7 +118,7 @@ h2{
     position: absolute;
     width: 570px;
     height: 535px;
-    top: 168px;
+    top: 100px;
     border-radius: 106px;
     z-index: 2;
     filter: saturate(0);
@@ -183,9 +183,51 @@ h3{
     display: flex;
 }
 .modal__inner {
-    width: 40%;
-    height: auto;
+    width: 35%;
+    height: 45%;
     background: white;
     padding: 1rem;
     text-align: center;
+    border-radius: 20px;
+}
+
+.modal__content {
+    font-family: 'GT Eesti Display Trial';
+    font-size: 25px;
+    margin-top: 32px;
+}
+
+.prompt-btn{
+    width: 25%;
+    height: 10%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 1px;
+    background-color: hsl(8, 100%, 52%);
+    color: hsl(15, 29%, 97%);
+    border-radius: 30px;
+    font-family: 'GT Eesti Display Trial';
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.modal__next {
+    font-family: 'GT Eesti Display Trial';
+    font-size: 25px;
+    margin-top: 35px;
+    color: hsl(11, 69%, 55%);
+}
+
+.nextbtn {
+    width: 25%;
+    height: 10%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 1px;
+    background-color: hsl(8, 100%, 52%);
+    color: hsl(15, 29%, 97%);
+    border-radius: 30px;
+    font-family: 'GT Eesti Display Trial';
+    font-weight: 100;
+    font-size: 15px;
 }
