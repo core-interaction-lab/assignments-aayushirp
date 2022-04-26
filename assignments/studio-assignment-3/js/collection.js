@@ -13,9 +13,11 @@ const db = {
 
             const articleEl = document.createElement('article');
             const photoImg = document.createElement('img');
+            const titleEl = document.createElement('h3');
 
             photoImg.classList.add('image-styling');
-    
+
+
             response.records.forEach((image) => {
                 console.log(image);
                 if(movie.fields.Image){
@@ -23,10 +25,11 @@ const db = {
                     
                     photoImg.style.width = '300px';
                 }
-            });   
+            }); 
+
             articleEl.append(photoImg);
             moviesContainer.appendChild(articleEl); 
-     
+        
         });
 
     
