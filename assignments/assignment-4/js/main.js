@@ -9,7 +9,6 @@ buildAlbums(response.items);
 
 
 const buildAlbums = albums => {
-    albums.forEach(item => {
         console.log(item);
         const imgEl = document.createElement('img');
         imgEl.setAttribute('src', item.images[0].url);

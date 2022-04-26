@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="css/game.css" />
-        <script src="js/main.js"></script>
+
     </head>
 
     <body>
@@ -24,12 +24,13 @@
         </header>
 
         <main>
+
+            <div class="soupside"><button></button></div>
+
+            <div class="saladside"></div>
             <div class="wrapper">
                 <section id="main-content">
 
-                    <div class="soupside"></div>
-
-                    <div class="saladside"></div>
 
                     <div class="item-title">
                         <h2>PANCAKE</h2>
@@ -46,7 +47,17 @@
                 
 
             </div>
+            <div id="modal">
+                <div class="modal__inner">
+                    <div class="modal__content">
+
+
+                    </div>
+                    <button class="prompt-btn">Ok</button>
+                </div>
+            </div>
         </main>
+        <script src="js/main.js"></script>
     </body>
 
 </html>

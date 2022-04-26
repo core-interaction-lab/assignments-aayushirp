@@ -181,12 +181,22 @@ a {
     padding: 1.25rem 0;
     font-size: 1.875rem;
     margin-bottom: -90px;
-    display: none;
+    /* display: none; */
+}
+
+/* .soup-savoury {
+    opacity: 0%;
+} */
+
+change it to this
+
+.soup {
+    opacity: 100%;
 }
 
 /* .item1{
     grid-area: column1;
-} */
+}
 
 .photo{
     max-width: 45vh;

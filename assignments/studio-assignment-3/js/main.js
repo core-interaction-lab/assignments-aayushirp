@@ -1,3 +1,5 @@
+const mainContent = document.getElementById('main-content');
+
 const db = {
     id: 'appoREwRng0gEiJqE',
     table: 'Soup-or-Salad?',
@@ -6,48 +8,99 @@ const db = {
 
 const airtableUrl = `https://api.airtable.com/v0/appoREwRng0gEiJqE/Table%201?api_key=keyul7nEZff6Uw7lV`
 
+const fetchUrl = url => {
+    return fetch(url).then(data => data.json());
+}
 
-const foodArray = {items: [
-    {
-      fields: {
-        img: "https://food-fanatic-res.cloudinary.com/iu/s--BobuhPb8--/t_xlarge_p/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1416055840/cherry-pie-pancakes-picture.jpg",
-        category: "salad"
-      }
-    },
-      {
-      fields: {
-        img: "https://www.amsety.com/uploads/recipes/img-recipies-spicy-tomato-basil-soup.jpg",
-        category: "salad"
-      }
-    },
-      {
-      fields: {
-        img: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https://static.onecms.io/wp-content/uploads/sites/19/2006/12/01/old-chili-ay-1875494-x.jpg",
-        category: "soup"
-      }
-    },
-  ]};
+const main = async () => {
+    const response = await fetchUrl(airtableUrl);
+    console.log(response);
+
+    const item = getRandomItem(response.records);
+    console.log(item);
+
+
+    const imgEl = mainContent.querySelector('.picture');
+    const titleEl = mainContent.querySelector('.item-title h2');
+
+    imgEl.src = item.fields.Image[0].url;
+    titleEl.innerHTML = item.fields.Food;
+    titleEl.dataset.type = item.fields['Soup or Salad?'][0];
+}
+
+const modalEl = document.getElementById('modal');
+
+document.querySelector('.soupside button').addEventListener('click', evt => {
+    console.log('soup click')
+    const titleEl = mainContent.querySelector('.item-title h2');
+    modalEl.classList.add('active');
+    const contentEl = modalEl.querySelector('.modal__content');
+    if (titleEl.dataset.type === "Soup") {
+        contentEl.innerHTML = 'Correct!';
+    } else {
+        contentEl.innerHTML = 'Incorrect!';
+    }
+});
+
+document.querySelector('.saladside').addEventListener('click', evt => {
+    console.log('salad click')
+    const titleEl = mainContent.querySelector('.item-title h2');
+    modalEl.classList.add('active');
+    const contentEl = modalEl.querySelector('.modal__content');
+    if (titleEl.dataset.type === "Salad") {
+        contentEl.innerHTML = 'Correct!';
+    } else {
+        contentEl.innerHTML = 'Incorrect!';
+    }
+});
+
+modalEl.querySelector('.prompt-btn').addEventListener('click', () => {
+    modalEl.classList.remove('active');
+})
+
+main();
+
+// const foodArray = {items: [
+//     {
+//       fields: {
+//         img: "https://food-fanatic-res.cloudinary.com/iu/s--BobuhPb8--/t_xlarge_p/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1416055840/cherry-pie-pancakes-picture.jpg",
+//         category: "salad"
+//       }
+//     },
+//       {
+//       fields: {
+//         img: "https://www.amsety.com/uploads/recipes/img-recipies-spicy-tomato-basil-soup.jpg",
+//         category: "salad"
+//       }
+//     },
+//       {
+//       fields: {
+//         img: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https://static.onecms.io/wp-content/uploads/sites/19/2006/12/01/old-chili-ay-1875494-x.jpg",
+//         category: "soup"
+//       }
+//     },
+//   ]};
 
   
-  /*
-  * Replace "itemArray.items" with your collection items array
-  */
-  const soupBtn = document.getElementById('soup-btn');
-  const saladBtn = document.getElementById('salad-btn');
-  const foodContainer = document.getElementById('food-container');
+//   /*
+//   * Replace "itemArray.items" with your collection items array
+//   */
+//   const soupBtn = document.getElementById('soup-btn');
+//   const saladBtn = document.getElementById('salad-btn');
+//   const foodContainer = document.getElementById('food-container');
 
 
-  // This copies your items array into a new variable, makes it easier to work with.
-  const myItems = foodArray.items.slice();
-  let userScore = 0;
-  let currentItem = {};
+//   // This copies your items array into a new variable, makes it easier to work with.
+//   const myItems = foodArray.items.slice();
+//   let userScore = 0;
+//   let currentItem = {};
   
-  const buildItem = food => {
-    const imgEl = document.createElement('img');
-    imgEl.src = food.fields.img;
-    foodContainer.innerHTML = '';
-    foodContainer.append(imgEl);
-  };
+//   const buildItem = food => {
+//     const imgEl = document.createElement('img');
+//     imgEl.src = food.fields.img;
+//     foodContainer.innerHTML = '';
+//     foodContainer.append(imgEl);
+//   };
   
   const getRandomItem = arr => {
     const randomIndex = Math.floor(Math.random() * arr.length)
@@ -57,28 +110,30 @@ const foodArray = {items: [
     return item;
   };
   
-  const refreshItem = food => {
-    // Eventually myItems wont have anything in it, then the game is over
-    if (food.length > 0) {
-        currentFood = getRandomItem(food);
-        buildItem(currentFood);
-    } else {
-      console.log('game over', userScore);
-    }
-  };
+//   const refreshItem = food => {
+//     // Eventually myItems wont have anything in it, then the game is over
+//     if (food.length > 0) {
+//         currentFood = getRandomItem(food);
+//         buildItem(currentFood);
+//     } else {
+//       console.log('game over', userScore);
+//     }
+//   };
   
-  soupBtn.addEventListener('click', () => {
-    if (currentFood.fields.category === "soup") {
-      userScore += 1;
-    }
-    refreshItem(myItems);
-  });
+//   soupBtn.addEventListener('click', () => {
+//     if (currentFood.fields.category === "soup") {
+//       userScore += 1;
+//     }
+//     refreshItem(myItems);
+//   });
   
-  saladBtn.addEventListener('click', () => {
-    if (currentFood.fields.category === "salad") {
-      userScore += 1;
-    }
-    refreshItem(myItems);
-  });
+//   saladBtn.addEventListener('click', () => {
+//     if (currentFood.fields.category === "salad") {
+//       userScore += 1;
+//     }
+//     refreshItem(myItems);
+//   });
   
-  refreshItem(myItems);
+//   refreshItem(myItems);
+
+
