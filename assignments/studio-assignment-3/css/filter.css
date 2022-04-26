@@ -28,7 +28,7 @@ body {
     width: 100%;
     height: 90px;
     z-index: 30;
-    margin-top: 29px;
+    margin-top: -94px;
 }
 
 .menu {
@@ -70,7 +70,7 @@ a {
     padding-bottom: 2rem;
     width: 10.2rem;
     margin-left: 12px;
-    margin-top: 135px;
+    margin-top: 15px;
     flex-direction: column;
     height: 580px;
     z-index: 5;
@@ -167,15 +167,16 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 'column1 column2 column3';
-    gap: 1em;
+    gap: 2em;
     width: 30vw;
     height: fit-content;
     padding: 2em;
     justify-content: center;
     margin-left: 580px;
-    margin-top: -35px;
+    margin-top: 90px;
     object-fit: cover;
-
+    grid-row-gap: 45px;
+    line-height: 10px;
 }
 
 .box{
@@ -190,7 +191,7 @@ a {
     opacity: 0%;
 } */
 
-change it to this
+
 
 .soup {
     opacity: 100%;
@@ -208,15 +209,34 @@ change it to this
     max-width: 45vh;
     justify-content: center;
     padding-bottom: 0.2em;
-    margin-top: 100px;
-    border-radius: 35px;
+    margin-top: 30px;
+    border-radius: 55px;
+}
 
+.grid-item{
+    line-height: 32px;
 }
 
 h3{
     font-family: 'GT Eesti Display Trial';
+    font-size: 26px;
+    color: hsl(12, 97%, 54%);
+    margin-left: 25px;
+}
+
+.description {
+    font-family: 'GT Eesti Display Trial';
     font-size: 20px;
     color: hsl(15, 29%, 97%);
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.type {
+    font-family: 'GT Eesti Display Trial';
+    font-size: 19px;
+    color: hsl(15, 29%, 97%);
+    margin-left: 30px;
 }
 
 /* .item1{

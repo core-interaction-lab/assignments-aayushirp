@@ -73,19 +73,28 @@ function filterObjectsSavoury() {
 function buildItem(item) {
   const itemContainer = document.createElement('div');
   itemContainer.classList.add('grid-item');
-  const imgEl = document.createElement('img');
   const titleEl = document.createElement('h3');
+  const descriptionEl = document.createElement('div');
+  const typeEl = document.createElement('div');
+  const imgEl = document.createElement('img');
+  // const titleEl = document.createElement('h3');
 
   imgEl.style.width = '400px';
   imgEl.classList.add('food-item');
-
-
+  descriptionEl.classList.add('description');
+  typeEl.classList.add('type');
 
   imgEl.src = item.fields.Image[0].url;
   titleEl.innerHTML = item.fields.Food;
-  itemContainer.append(imgEl, titleEl);
+  descriptionEl.innerHTML = item.fields.Cube_Rule_Type;
+  typeEl.innerHTML = item.fields.Cuisine;
+
+  itemContainer.append(titleEl, descriptionEl, typeEl, imgEl);
   return itemContainer;
 }
+
+
+
 // fetch('https://api.airtable.com/v0/appoREwRng0gEiJqE/Table%201', {
 //   headers: {
 //     Authorization: 'Bearer keyul7nEZff6Uw7lV',
