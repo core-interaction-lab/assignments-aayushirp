@@ -67,10 +67,11 @@ article{
 
 .content .info{
     text-align: justify;
+    align-items: center;
     font-family: 'GT Eesti Display Trial';
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 150px;
-    margin-left: 240px;
+    margin-left: 255px;
     width: 900px;
     color: hsla(12, 33%, 97%, 0.847);
 }
