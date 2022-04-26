@@ -76,6 +76,11 @@ function buildItem(item) {
   const imgEl = document.createElement('img');
   const titleEl = document.createElement('h3');
 
+  imgEl.style.width = '400px';
+  imgEl.classList.add('food-item');
+
+
+
   imgEl.src = item.fields.Image[0].url;
   titleEl.innerHTML = item.fields.Food;
   itemContainer.append(imgEl, titleEl);

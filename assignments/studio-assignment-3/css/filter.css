@@ -168,12 +168,14 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 'column1 column2 column3';
     gap: 1em;
-    width: 80vw;
+    width: 30vw;
     height: fit-content;
     padding: 2em;
     justify-content: center;
-    margin-left: 230px;
+    margin-left: 580px;
     margin-top: -35px;
+    object-fit: cover;
+
 }
 
 .box{
@@ -192,6 +194,29 @@ change it to this
 
 .soup {
     opacity: 100%;
+}
+
+/* .photo{
+    max-width: 45vh;
+    justify-content: center;
+    padding-bottom: 0.2em;
+    margin-top: 100px;
+    border-radius: 35px;
+} */
+
+.food-item{
+    max-width: 45vh;
+    justify-content: center;
+    padding-bottom: 0.2em;
+    margin-top: 100px;
+    border-radius: 35px;
+
+}
+
+h3{
+    font-family: 'GT Eesti Display Trial';
+    font-size: 20px;
+    color: hsl(15, 29%, 97%);
 }
 
 /* .item1{
