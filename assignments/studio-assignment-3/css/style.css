@@ -4,12 +4,12 @@ html, body {
 
 @font-face {
     font-family: 'Bogam';
-    src: url('fonts/Bogam.otf');
+    src: url('fonts/bogam.otf');
 }
 
 @font-face {
     font-family: 'GT Eesti Display Trial';
-    src: url('fonts/GT-Eesti-Display-Regular-Trial.otf');
+    src: url('fonts/gt.otf');
 }
 
 body {
