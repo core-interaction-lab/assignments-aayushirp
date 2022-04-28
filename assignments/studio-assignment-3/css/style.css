@@ -8,6 +8,11 @@ html, body {
 }
 
 @font-face {
+    font-family: 'Helvetica';
+    src: url('fonts/helvetica.otf');
+}
+
+@font-face {
     font-family: 'GT Eesti Display Trial';
     src: url('fonts/gt.woff2');
 }
