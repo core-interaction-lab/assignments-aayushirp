@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    max-width: 100%;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    color: blueviolet;
+    text-align: left;
+    font-size: 90px;
+    padding: 30px;
+}
+
+#slideshow-container {
+    display: flex;
+    position: relative;
+}
+
+.poster-img{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+}
+
+#prev{
+    background-color: blueviolet;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    position: absolute;
+    color: rgb(249, 249, 249);
+    border-radius: 70px; 
+    border: none; 
+    min-height:90px; 
+    min-width: 150px;
+    margin-left: 40px;
+    margin-top: 50px;
+  }  
+
+  #next{
+    background-color: blueviolet;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    position: absolute;
+    color: rgb(249, 249, 249);
+    border:none; 
+    border-radius: 70px; 
+    min-height:90px; 
+    min-width: 150px;
+    margin-left: 1200px;
+    margin-top: 50px;
+  }
