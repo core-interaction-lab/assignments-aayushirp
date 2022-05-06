@@ -49,13 +49,14 @@ marquee {
 
 .vidcont {
     margin: 0;
-    position: absolute;
+    /* position: absolute; */
     padding: 0;
     height: 660px;
-    width: 1380px;
+    width: 1475px;
+    max-width:max-content;
     overflow-x: hidden;
     /* z-index: 3; */
-    min-width: min-content;
+    /* min-width: min-content; */
     /* visibility: hidden; */
 }
 
@@ -63,8 +64,11 @@ marquee {
 .video-container {
     margin: 0;
     top: 0px;
+    margin-top: 30px;
     width: 100%;
+    max-width:max-content;
     overflow: hidden;
+    /* visibility: hidden; */
     /* position: absolute; */
     /* height: 620px;
     width: 1380px; */
@@ -75,7 +79,14 @@ marquee {
 img{
     position: absolute;
     width: 100%;
+    display: block;
+    opacity: 0;
 }
+
+img.active {
+    opacity: 1;
+}
+
 
 /* .image-1 {
     position: relative;
@@ -97,32 +108,31 @@ img{
       width: 0;
     } */
 
-/* .scroll-vidcont{
-    margin: 0;
-    position: fixed;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
-    z-index: -10;
-    min-width: min-content;
-} */
-
 .key {
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
     text-align: center;
-    display: flex;
+    display:block;
     align-items: center;
     justify-content: center;
-    height: 13rem;
+    max-height: fit-content;
+    height: 6rem;
     width: 100vw;
-    position: fixed;
-    top: 39.8vh;
+    position: absolute;
+    top: 49.8vh;
 }
 
-.show-pressed .mood-1{
-    display: block;
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    line-height: 0px;
+    text-align: center;
+    margin: 0;
+}
+
+.show-pressed{
     position: relative;
-    align-items: center;
-  }
+}
+
+.mood-1 {
+    text-align: center;
+    z-index: 3;
+}
