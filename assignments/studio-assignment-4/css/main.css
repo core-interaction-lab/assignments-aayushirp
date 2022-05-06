@@ -47,6 +47,17 @@ marquee {
     height: 85px;
 }
 
+.vidcont{
+    margin: 0;
+    position: fixed;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    z-index: -10;
+    min-width: min-content;
+  }
+
 .video-container{
     margin: 0;
     top: 0;
@@ -124,5 +135,17 @@ video.active{
     padding-bottom: 35px; */
   
     margin: 0;
+  }
+
+  .show-pressed{
+    display: block;
+    /* width: 10%;
+    height: 100%; */
+    position: relative;
+    mix-blend-mode: difference;
+
+    /* -webkit-animation: bye 0.4s ease-out both;
+              animation: bye 0.4s ease-out both;
+            animation-delay: 3s; */
   }
 
