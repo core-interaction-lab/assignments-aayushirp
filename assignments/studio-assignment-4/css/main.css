@@ -85,3 +85,44 @@ video.active{
     position: fixed;
     top: 39.8vh;
 }
+
+  
+  h3{
+    font-family: sohne;
+    font-size: 1.35rem;
+    letter-spacing: 0.05em;
+    color: #ff1e00;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 0.8%;
+    margin-top: 0.8%;
+        margin-right: 0;
+        margin-bottom: 0;
+    position: fixed;
+  
+  
+    mix-blend-mode: difference;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+  }
+
+  h2{
+    font-family: sohne;
+    font-size: 12.2rem;
+    letter-spacing: -0.025em;
+    line-height: 0.76;
+    color: #ff1e00;
+    text-align: center;
+    mix-blend-mode: difference;
+    /* text-transform: uppercase; */
+  
+    /* padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 35px; */
+  
+    margin: 0;
+  }
+

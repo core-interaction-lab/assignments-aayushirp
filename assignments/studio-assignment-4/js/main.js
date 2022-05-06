@@ -1,19 +1,19 @@
 let elements = {
     'a': {
         'video': '',
-        'audio': '',
+        'audio': 'audio',
         name: '',
     },
 
     'b': {
         'video': '',
-        'audio': '',
+        'audio': 'audio2',
         name: '',
     },
 
     'c': {
         'video': '',
-        'audio': '',
+        'audio': 'audio3',
         name: '',
     },
     

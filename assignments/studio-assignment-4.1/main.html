@@ -20,13 +20,27 @@
 
         <div class="wrapper-main">
             <div class="headline">
-                <marquee>Press the representative alphabet keys depending on the mood you are in: A for Anger, H for Happy, S for Scared</marquee>
+                <marquee>Press any alphabet key to figure out which mood/emotion it represents based on the visuals and audio.</marquee>
             </div>
 
-            <audio id=alarm>
-                <source src=>
-            </audio>
+            Press the representative alphabet keys depending on the mood you are in:
+
+            <!-- <audio id=alarm>
+                <source src="grapesoda.mp3">
+            </audio> -->
             
+              <audio id="audio" controls style="display:none">
+                <source src="sounds/grapesoda.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+              </audio>
+
+              <audio id="audio2" controls style="display:none">
+                <source src="sounds/cheerful-whistling.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+              </audio>
+
+              <audio id="audio3" controls style="display:none">
+                <source src="sounds/chill.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+              </audio>
+              
             
             <div class="vidcont">
             <div class="video-container">
