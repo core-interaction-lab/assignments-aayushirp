@@ -10,8 +10,8 @@
 //    else console.log("key not mapped : code is", e.keyCode);
 // }
 
-const headerE1 = document.querySelector('.primary-header');
-const headlineE1 = document.querySelector('.headline');
+const headerEl = document.querySelector('.primary-header a');
+const headlineEl = document.querySelector('.headline marquee');
 
 document.addEventListener('keydown', function(e) {
   
@@ -246,13 +246,15 @@ document.addEventListener('keydown', function(e) {
     // document.getElementById('').play();
     document.getElementById('image-21').style.opacity = 1;
     document.getElementById('mood-21').style.opacity = 1;
-    headerE1.classList.add('text-black');
+    headerEl.classList.add('text-black');
+    headlineEl.classList.add('text-black');
   }
   else{
     // document.getElementById('').pause();
     document.getElementById('image-21').style.opacity = 0;
     document.getElementById('mood-21').style.opacity = 0;
-    headerE1.classList.remove('text-black');
+    headerEl.classList.remove('text-black');
+    headlineEl.classList.remove('text-black');
   }
 
 
