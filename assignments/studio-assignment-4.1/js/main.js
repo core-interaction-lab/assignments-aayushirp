@@ -74,7 +74,7 @@ document.addEventListener('keydown', function(e) {
   }
 
 
-  if (e.keyCode == 76) {
+  if (e.keyCode == 89) {
     // document.getElementById('').play();
     document.getElementById('image-6').style.opacity = 1;
     document.getElementById('mood-6').style.opacity = 1;
@@ -99,12 +99,12 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 84) {
-    // document.getElementById('').play();
+    document.getElementById('audio3').play();
     document.getElementById('image-8').style.opacity = 1;
     document.getElementById('mood-8').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio3').pause();
     document.getElementById('image-8').style.opacity = 0;
     document.getElementById('mood-8').style.opacity = 0;
   }
@@ -194,5 +194,132 @@ document.addEventListener('keydown', function(e) {
   }
 
 
+  if (e.keyCode == 90) {
+    // document.getElementById('').play();
+    document.getElementById('image-17').style.opacity = 1;
+    document.getElementById('mood-17').style.opacity = 1;
+  }
+  else{
+    // document.getElementById('').pause();
+    document.getElementById('image-17').style.opacity = 0;
+    document.getElementById('mood-17').style.opacity = 0;
+  }
+
+  if (e.keyCode == 88) {
+    // document.getElementById('').play();
+    document.getElementById('image-18').style.opacity = 1;
+    document.getElementById('mood-18').style.opacity = 1;
+  }
+  else{
+    // document.getElementById('').pause();
+    document.getElementById('image-18').style.opacity = 0;
+    document.getElementById('mood-18').style.opacity = 0;
+  }
+
+  if (e.keyCode == 86) {
+    // document.getElementById('').play();
+    document.getElementById('image-19').style.opacity = 1;
+    document.getElementById('mood-19').style.opacity = 1;
+  }
+  else{
+    // document.getElementById('').pause();
+    document.getElementById('image-19').style.opacity = 0;
+    document.getElementById('mood-19').style.opacity = 0;
+  }
+
+  if (e.keyCode == 81) {
+    // document.getElementById('').play();
+    document.getElementById('image-20').style.opacity = 1;
+    document.getElementById('mood-20').style.opacity = 1;
+  }
+  else{
+    // document.getElementById('').pause();
+    document.getElementById('image-20').style.opacity = 0;
+    document.getElementById('mood-20').style.opacity = 0;
+  }
+
+
+  if (e.keyCode == 74) {
+    // document.getElementById('').play();
+    document.getElementById('image-21').style.opacity = 1;
+    document.getElementById('mood-21').style.opacity = 1;
+  }
+  else{
+    // document.getElementById('').pause();
+    document.getElementById('image-21').style.opacity = 0;
+    document.getElementById('mood-21').style.opacity = 0;
+  }
+
+
+  if (e.keyCode == 76) {
+    // document.getElementById('').play();
+    document.getElementById('image-22').style.opacity = 1;
+    document.getElementById('mood-22').style.opacity = 1;
+  }
+  else{
+    // document.getElementById('').pause();
+    document.getElementById('image-22').style.opacity = 0;
+    document.getElementById('mood-22').style.opacity = 0;
+  }
+
+
+  if (e.keyCode == 85) {
+    // document.getElementById('').play();
+    document.getElementById('image-23').style.opacity = 1;
+    document.getElementById('mood-23').style.opacity = 1;
+  }
+  else{
+    // document.getElementById('').pause();
+    document.getElementById('image-23').style.opacity = 0;
+    document.getElementById('mood-23').style.opacity = 0;
+  }
+
+
+  if (e.keyCode == 73) {
+    // document.getElementById('').play();
+    document.getElementById('image-24').style.opacity = 1;
+    document.getElementById('mood-24').style.opacity = 1;
+  }
+  else{
+    // document.getElementById('').pause();
+    document.getElementById('image-24').style.opacity = 0;
+    document.getElementById('mood-24').style.opacity = 0;
+  }
+
+
+  if (e.keyCode == 75) {
+    // document.getElementById('').play();
+    document.getElementById('image-25').style.opacity = 1;
+    document.getElementById('mood-25').style.opacity = 1;
+  }
+  else{
+    // document.getElementById('').pause();
+    document.getElementById('image-25').style.opacity = 0;
+    document.getElementById('mood-25').style.opacity = 0;
+  }
+
+
+  if (e.keyCode == 79) {
+    // document.getElementById('').play();
+    document.getElementById('image-26').style.opacity = 1;
+    document.getElementById('mood-26').style.opacity = 1;
+  }
+  else{
+    // document.getElementById('').pause();
+    document.getElementById('image-26').style.opacity = 0;
+    document.getElementById('mood-26').style.opacity = 0;
+  }
+
+
+  if (e.keyCode == 72) {
+    // document.getElementById('').play();
+    document.getElementById('image-27').style.opacity = 1;
+    document.getElementById('mood-27').style.opacity = 1;
+  }
+  else{
+    // document.getElementById('').pause();
+    document.getElementById('image-27').style.opacity = 0;
+    document.getElementById('mood-27').style.opacity = 0;
+  }
 
 });
