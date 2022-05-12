@@ -13,7 +13,7 @@ body {
     font-weight: 300;
     font-size: 20px;
     margin: 0;
-    padding: 1.5em;
+    padding: 0.9em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,52 +22,58 @@ body {
 
 a {
     text-decoration: none;
+    cursor: pointer;
     color: whitesmoke;
 }
 
 .headline {
     grid-column: 1 / -1;
     grid-row: 1;
-    height: 4.7vh;
-    margin-top: -7vh;
+    height: 5vh;
+    margin-top: -5.7vh;
+    /* padding: 0.2em; */
     font-size: 2vw;
     font-family: 'Inter', sans-serif;
     color: white;
     border-bottom: white;
     border-bottom-style: solid;
     text-align: center;
-    width: 1320px;
-    margin-left: 30px;
-    z-index: -1;
+    width: 100%;
+    /* margin-left: 30px; */
+    z-index: 1;
 }
 
 marquee {
     font-size: 20px;
     margin-left: 80px;
     height: 85px;
+    z-index: 1;
 }
 
 .vidcont {
-    margin: 0;
     /* position: absolute; */
     padding: 0;
-    height: 660px;
-    width: 1475px;
+    height: 100%;
+    width: 100%;
+    /* height: 660px;
+    width: 1475px; */
     max-width:max-content;
     overflow-x: hidden;
-    /* z-index: 3; */
+    z-index: -3;
     /* min-width: min-content; */
     /* visibility: hidden; */
 }
 
 
 .video-container {
-    margin: 0;
-    top: 0px;
-    margin-top: 30px;
+    /* margin: 0; */
+    /* top: 0px; */
+    margin-top: -77px;
     width: 100%;
     max-width:max-content;
     overflow: hidden;
+    height: 100%;
+    z-index: -3;
     /* visibility: hidden; */
     /* position: absolute; */
     /* height: 620px;
@@ -79,6 +85,7 @@ marquee {
 img{
     position: absolute;
     width: 100%;
+    height: 100%;
     display: block;
     opacity: 0;
 }
@@ -123,9 +130,11 @@ img.active {
 h2{
     font-family: 'Inter', sans-serif;
     font-size: 28px;
+    font-weight: 900;
     line-height: 0px;
     text-align: center;
     margin: 0;
+    mix-blend-mode: multiply;
 }
 
 .show-pressed{
