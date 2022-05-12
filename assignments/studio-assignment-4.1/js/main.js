@@ -27,12 +27,12 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 67) {
-    // document.getElementById('audio3').play();
+    document.getElementById('audio').play();
     document.getElementById('image-3').style.opacity = 1;
     document.getElementById('mood-3').style.opacity = 1;
   }
   else{
-    // document.getElementById('audio3').pause();
+    document.getElementById('audio').pause();
     document.getElementById('image-3').style.opacity = 0;
     document.getElementById('mood-3').style.opacity = 0;
   }
