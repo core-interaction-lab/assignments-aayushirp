@@ -4,5 +4,38 @@
         <title>Madlibs Assignment!</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
+    <body>
+        <header classs="header">
+            <h1>Madlibs</h1>
+            <h2>Create your own weird song title!</h2>
+            <h3>Fill in the categories below to get a result!</h3>
+        </header>
+        <br>
+        <div id="forms">
+            <p>Singular Noun</p>
+            <input type="text" id="noun">
+
+            <p>An adjective</p>
+            <input type="text" id="adjective">
+
+            <p>A verb</p>
+            <input type="text" id="verb">
+
+            <p>A name</p>
+            <input type="text" id="name">
+
+        </div>
+
+        <button id="lib-button" onclick="madLibs()">Generate!</button>
+
+        <div id="answer"></div>
+
+        <script src="js/main.js"></script>
+    </body>
+    
 </html>
