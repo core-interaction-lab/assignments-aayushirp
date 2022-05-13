@@ -234,11 +234,15 @@ document.addEventListener('keydown', function(e) {
     // document.getElementById('').play();
     document.getElementById('image-20').style.opacity = 1;
     document.getElementById('mood-20').style.opacity = 1;
+    headerEl.classList.add('text-green');
+    headlineEl.classList.add('text-green');
   }
   else{
     // document.getElementById('').pause();
     document.getElementById('image-20').style.opacity = 0;
     document.getElementById('mood-20').style.opacity = 0;
+    headerEl.classList.remove('text-green');
+    headlineEl.classList.remove('text-green');
   }
 
 

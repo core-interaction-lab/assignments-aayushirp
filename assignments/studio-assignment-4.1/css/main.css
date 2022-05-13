@@ -88,6 +88,10 @@ marquee {
     color: black;
 }
 
+.text-green{
+    color: rgb(0, 0, 0);
+}
+
 img{
     position: absolute;
     width: 100%;
