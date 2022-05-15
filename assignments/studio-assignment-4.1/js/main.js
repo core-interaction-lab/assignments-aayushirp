@@ -78,12 +78,12 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 89) {
-    // document.getElementById('').play();
+    document.getElementById('audio7').play();
     document.getElementById('image-6').style.opacity = 1;
     document.getElementById('mood-6').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio7').pause();
     document.getElementById('image-6').style.opacity = 0;
     document.getElementById('mood-6').style.opacity = 0;
   }
@@ -150,24 +150,24 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 83) {
-    // document.getElementById('').play();
+    document.getElementById('audio6').play();
     document.getElementById('image-13').style.opacity = 1;
     document.getElementById('mood-13').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio6').pause();
     document.getElementById('image-13').style.opacity = 0;
     document.getElementById('mood-13').style.opacity = 0;
   }
 
 
   if (e.keyCode == 82) {
-    // document.getElementById('').play();
+    document.getElementById('audio5').play();
     document.getElementById('image-14').style.opacity = 1;
     document.getElementById('mood-14').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio5').pause();
     document.getElementById('image-14').style.opacity = 0;
     document.getElementById('mood-14').style.opacity = 0;
   }
@@ -287,12 +287,12 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 73) {
-    // document.getElementById('').play();
+    document.getElementById('audio4').play();
     document.getElementById('image-24').style.opacity = 1;
     document.getElementById('mood-24').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio4').pause();
     document.getElementById('image-24').style.opacity = 0;
     document.getElementById('mood-24').style.opacity = 0;
   }
