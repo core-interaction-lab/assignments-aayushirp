@@ -66,12 +66,12 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 80) {
-    // document.getElementById('').play();
+    document.getElementById('audio10').play();
     document.getElementById('image-5').style.opacity = 1;
     document.getElementById('mood-5').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio10').pause();
     document.getElementById('image-5').style.opacity = 0;
     document.getElementById('mood-5').style.opacity = 0;
   }
@@ -90,12 +90,12 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 70) {
-    // document.getElementById('').play();
+    document.getElementById('audio15').play();
     document.getElementById('image-7').style.opacity = 1;
     document.getElementById('mood-7').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio15').pause();
     document.getElementById('image-7').style.opacity = 0;
     document.getElementById('mood-7').style.opacity = 0;
   }
@@ -126,24 +126,24 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 65) {
-    // document.getElementById('').play();
+    document.getElementById('audio13').play();
     document.getElementById('image-11').style.opacity = 1;
     document.getElementById('mood-11').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio13').pause();
     document.getElementById('image-11').style.opacity = 0;
     document.getElementById('mood-11').style.opacity = 0;
   }
 
 
   if (e.keyCode == 71) {
-    // document.getElementById('').play();
+    document.getElementById('audio14').play();
     document.getElementById('image-12').style.opacity = 1;
     document.getElementById('mood-12').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio14').pause();
     document.getElementById('image-12').style.opacity = 0;
     document.getElementById('mood-12').style.opacity = 0;
   }
@@ -174,24 +174,24 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 69) {
-    // document.getElementById('').play();
+    document.getElementById('audio9').play();
     document.getElementById('image-15').style.opacity = 1;
     document.getElementById('mood-15').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio9').pause();
     document.getElementById('image-15').style.opacity = 0;
     document.getElementById('mood-15').style.opacity = 0;
   }
 
 
   if (e.keyCode == 68) {
-    // document.getElementById('').play();
+    document.getElementById('audio17').play();
     document.getElementById('image-16').style.opacity = 1;
     document.getElementById('mood-16').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio17').pause();
     document.getElementById('image-16').style.opacity = 0;
     document.getElementById('mood-16').style.opacity = 0;
   }
@@ -231,14 +231,14 @@ document.addEventListener('keydown', function(e) {
   }
 
   if (e.keyCode == 81) {
-    // document.getElementById('').play();
+    document.getElementById('audio8').play();
     document.getElementById('image-20').style.opacity = 1;
     document.getElementById('mood-20').style.opacity = 1;
     headerEl.classList.add('text-green');
     headlineEl.classList.add('text-green');
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio8').pause();
     document.getElementById('image-20').style.opacity = 0;
     document.getElementById('mood-20').style.opacity = 0;
     headerEl.classList.remove('text-green');
@@ -247,14 +247,14 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 74) {
-    // document.getElementById('').play();
+    document.getElementById('audio18').play();
     document.getElementById('image-21').style.opacity = 1;
     document.getElementById('mood-21').style.opacity = 1;
     headerEl.classList.add('text-black');
     headlineEl.classList.add('text-black');
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio18').pause();
     document.getElementById('image-21').style.opacity = 0;
     document.getElementById('mood-21').style.opacity = 0;
     headerEl.classList.remove('text-black');
@@ -275,12 +275,12 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 85) {
-    // document.getElementById('').play();
+    document.getElementById('audio12').play();
     document.getElementById('image-23').style.opacity = 1;
     document.getElementById('mood-23').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio12').pause();
     document.getElementById('image-23').style.opacity = 0;
     document.getElementById('mood-23').style.opacity = 0;
   }
@@ -311,24 +311,24 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 79) {
-    // document.getElementById('').play();
+    document.getElementById('audio11').play();
     document.getElementById('image-26').style.opacity = 1;
     document.getElementById('mood-26').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio11').pause();
     document.getElementById('image-26').style.opacity = 0;
     document.getElementById('mood-26').style.opacity = 0;
   }
 
 
   if (e.keyCode == 72) {
-    // document.getElementById('').play();
+    document.getElementById('audio16').play();
     document.getElementById('image-27').style.opacity = 1;
     document.getElementById('mood-27').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio16').pause();
     document.getElementById('image-27').style.opacity = 0;
     document.getElementById('mood-27').style.opacity = 0;
   }
