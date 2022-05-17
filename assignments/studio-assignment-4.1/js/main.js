@@ -42,24 +42,24 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 87) {
-    // document.getElementById('audio').play();
+    document.getElementById('audio26').play();
     document.getElementById('image-2').style.opacity = 1;
     document.getElementById('mood-2').style.opacity = 1;
   }
   else{
-    // document.getElementById('audio').pause();
+    document.getElementById('audio26').pause();
     document.getElementById('image-2').style.opacity = 0;
     document.getElementById('mood-2').style.opacity = 0;
   }
 
 
   if (e.keyCode == 77) {
-    //document.getElementById('').play();
+    document.getElementById('audio22').play();
     document.getElementById('image-4').style.opacity = 1;
     document.getElementById('mood-4').style.opacity = 1;
   }
   else{
-    //document.getElementById('').pause();
+    document.getElementById('audio22').pause();
     document.getElementById('image-4').style.opacity = 0;
     document.getElementById('mood-4').style.opacity = 0;
   }
@@ -114,12 +114,12 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 78) {
-    // document.getElementById('').play();
+    document.getElementById('audio23').play();
     document.getElementById('image-9').style.opacity = 1;
     document.getElementById('mood-9').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio23').pause();
     document.getElementById('image-9').style.opacity = 0;
     document.getElementById('mood-9').style.opacity = 0;
   }
@@ -198,34 +198,34 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 90) {
-    // document.getElementById('').play();
+    document.getElementById('audio20').play();
     document.getElementById('image-17').style.opacity = 1;
     document.getElementById('mood-17').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio20').pause();
     document.getElementById('image-17').style.opacity = 0;
     document.getElementById('mood-17').style.opacity = 0;
   }
 
   if (e.keyCode == 88) {
-    // document.getElementById('').play();
+    document.getElementById('audio24').play();
     document.getElementById('image-18').style.opacity = 1;
     document.getElementById('mood-18').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio24').pause();
     document.getElementById('image-18').style.opacity = 0;
     document.getElementById('mood-18').style.opacity = 0;
   }
 
   if (e.keyCode == 86) {
-    // document.getElementById('').play();
+    document.getElementById('audio19').play();
     document.getElementById('image-19').style.opacity = 1;
     document.getElementById('mood-19').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio19').pause();
     document.getElementById('image-19').style.opacity = 0;
     document.getElementById('mood-19').style.opacity = 0;
   }
@@ -263,12 +263,12 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 76) {
-    // document.getElementById('').play();
+    document.getElementById('audio21').play();
     document.getElementById('image-22').style.opacity = 1;
     document.getElementById('mood-22').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio21').pause();
     document.getElementById('image-22').style.opacity = 0;
     document.getElementById('mood-22').style.opacity = 0;
   }
@@ -299,12 +299,12 @@ document.addEventListener('keydown', function(e) {
 
 
   if (e.keyCode == 75) {
-    // document.getElementById('').play();
+    document.getElementById('audio25').play();
     document.getElementById('image-25').style.opacity = 1;
     document.getElementById('mood-25').style.opacity = 1;
   }
   else{
-    // document.getElementById('').pause();
+    document.getElementById('audio25').pause();
     document.getElementById('image-25').style.opacity = 0;
     document.getElementById('mood-25').style.opacity = 0;
   }
